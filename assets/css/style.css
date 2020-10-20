@@ -13,7 +13,7 @@ header {
 
 .logo {
   background: url("../images/logo_sh.png");
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100px;
@@ -59,6 +59,26 @@ header {
 
 .hamburger:focus {
   outline: none;
+}
+
+/*------------------------------------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+  background: rgba(0, 0, 0, 0.2);
+  height: 100px;
+  width: 100%;
+}
+
+.club-name:hover {
+  text-decoration: none;
+}
+
+.text-input:hover {
+  border-color: #f16c6b;
+}
+
+.social-links li a i:hover {
+  background: #912b0a;
 }
 
 /*------------------------------------------------Media Queries */
