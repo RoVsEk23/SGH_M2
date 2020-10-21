@@ -34,16 +34,45 @@ header {
   color: #000000;
   text-decoration: none;
   height: 30px;
-  padding-top: 10px;
+  padding-top: 35px;
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .menu-list {
-  padding-left: 130px;
   flex-wrap: wrap;
   display: flex;
+}
+
+.social-links {
+  padding-bottom: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+.social-links li a i {
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  font-size: 30px;
+  line-height: 7px;
+  text-align: center;
+  background: #fafafa;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #912b0a;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0px;
 }
 
 /*------------------------------------------------Hamburger */
@@ -61,6 +90,46 @@ header {
   outline: none;
 }
 
+/*------------------------------------------------Registration / Sign Up button*/
+
+.btn {
+  background-color: white;
+  border-color: white;
+  border-radius: 15px;
+  min-width: 100px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #e04d4d;
+}
+
+.btn--cta {
+  font-weight: bold;
+  border-radius: 23px;
+  width: 200px;
+}
+
+.btn--red {
+  color: #fafafa;
+  background-color: #e04d4d;
+  border-color: #e04d4d;
+  text-transform: uppercase;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+  background-color: #b42a0c;
+  border-color: #b42a0c;
+  color: #fafafa;
+}
+
+.btn-home {
+  display: block;
+  max-width: 300px;
+  margin-top: 27px;
+}
+
 /*------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
@@ -73,12 +142,8 @@ header {
   text-decoration: none;
 }
 
-.text-input:hover {
-  border-color: #f16c6b;
-}
-
 .social-links li a i:hover {
-  background: #912b0a;
+  background: #9c9a9a;
 }
 
 /*------------------------------------------------Media Queries */
@@ -90,6 +155,10 @@ header {
     flex-direction: column;
   }
   .menu-list.show {
+    display: flex;
+  }
+
+  #nav.show {
     display: flex;
   }
 
