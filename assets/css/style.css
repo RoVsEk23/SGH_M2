@@ -75,6 +75,14 @@ header {
   margin-right: 0px;
 }
 
+#nav li {
+  font-size: 14px;
+}
+
+#nav a {
+  display: inline-block;
+}
+
 /*------------------------------------------------Hamburger */
 
 .hamburger {
@@ -165,5 +173,17 @@ header {
   .hamburger {
     display: block;
     float: right;
+  }
+
+  .header-button {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .header-social {
+    display: none;
+    width: 100%;
+    flex-direction: column;
   }
 }
