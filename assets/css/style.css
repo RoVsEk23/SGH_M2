@@ -34,7 +34,7 @@ header {
   color: #000000;
   text-decoration: none;
   height: 30px;
-  padding-top: 35px;
+  margin-top: 35px;
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -81,6 +81,7 @@ header {
 
 #nav a {
   display: inline-block;
+  margin-left: 100px;
 }
 
 /*------------------------------------------------Hamburger */
@@ -142,12 +143,14 @@ header {
 
 .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
-  height: 100px;
+  height: 30px;
   width: 100%;
 }
 
-.club-name:hover {
-  text-decoration: none;
+.hvr-sweep-to-bottom:after {
+  background: rgba(0, 0, 0, 0.2);
+  height: 35px;
+  width: 100%;
 }
 
 .social-links li a i:hover {
@@ -156,7 +159,7 @@ header {
 
 /*------------------------------------------------Media Queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   .menu-list {
     display: none;
     width: 100%;
