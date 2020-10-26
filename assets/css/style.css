@@ -157,6 +157,25 @@ header {
   background: #9c9a9a;
 }
 
+/*------------------------------------------------Footer */
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
+}
+
+.section-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /*------------------------------------------------Media Queries */
 
 @media screen and (max-width: 992px) {
@@ -189,4 +208,10 @@ header {
     width: 100%;
     flex-direction: column;
   }
+}
+
+/*-------------------------------------------------------Maps */
+
+div#map {
+  min-height: 360px;
 }

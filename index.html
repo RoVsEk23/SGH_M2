@@ -100,6 +100,33 @@
         </div>
       </div>
     </header>
-    <script src="index.js"></script>
+    <!---------------------------------------Footer----------------------------------------->
+    <footer>
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 bg-color-conferences section-column">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="section-heading uppercase">
+                  Location
+                </h3>
+              </div>
+            </div>
+            <div id="map"></div>
+          </div>
+          <div class="col-md-4 bg-color-groups">
+            <div class="row"></div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWT00kA28dKj3AmPtfT6ERq0sXUNsOv2I&callback=initMap"
+    ></script>
   </body>
 </html>
