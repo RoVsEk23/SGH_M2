@@ -56,19 +56,16 @@ header {
   margin-right: 20px;
   width: 32px;
   height: 32px;
-  padding: 12px 0;
+  padding: 0;
   font-size: 30px;
   line-height: 7px;
+  color: #3e362d;
   text-align: center;
   background: #fafafa;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-  background: #912b0a;
 }
 
 .list-inline-item:not(:last-child) {
@@ -99,62 +96,35 @@ header {
   outline: none;
 }
 
-/*------------------------------------------------Registration / Sign Up button*/
+/*------------------------------------------------Check availability button*/
 
-.btn {
-  background-color: white;
-  border-color: white;
-  border-radius: 15px;
-  min-width: 100px;
-  font-weight: bold;
-  margin-top: 10px;
-  color: #e04d4d;
-}
-
+.btn,
 .btn--cta {
-  font-weight: bold;
-  border-radius: 23px;
-  width: 200px;
-}
-
-.btn--red {
-  color: #fafafa;
-  background-color: #e04d4d;
-  border-color: #e04d4d;
-  text-transform: uppercase;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-  background-color: #b42a0c;
-  border-color: #b42a0c;
-  color: #fafafa;
-}
-
-.btn-home {
+  cursor: pointer;
+  background-color: #3e362d;
+  border: 2px solid #3e362d;
+  border-radius: 4px;
+  color: #fff;
   display: block;
-  max-width: 300px;
-  margin-top: 27px;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
 }
 
 /*------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
-  height: 30px;
-  width: 100%;
-}
-
-.hvr-sweep-to-bottom:after {
-  background: rgba(0, 0, 0, 0.2);
   height: 35px;
   width: 100%;
 }
 
-.social-links li a i:hover {
-  background: #9c9a9a;
+.btn:hover {
+  color: #fafafa;
+  text-decoration: none;
+  background-color: #9a0d02;
+  border-color: #802103;
 }
 
 /*------------------------------------------------Footer */
