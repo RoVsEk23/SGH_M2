@@ -108,14 +108,76 @@
             <div class="row">
               <div class="col-12">
                 <h3 class="section-heading uppercase">
-                  Location
+                  Location <i class="fas fa-map-marked"></i>
                 </h3>
               </div>
             </div>
             <div id="map"></div>
           </div>
           <div class="col-md-4 bg-color-groups">
-            <div class="row"></div>
+            <div class="row">
+              <div class="col-12">
+                <h3 class="section-heading uppercase">
+                  Check availability <i class="fas fa-user-plus"></i>
+                </h3>
+              </div>
+
+              <div class="container-fluid form-banner-container">
+                <div class="opaque-overlay">
+                  <div class="col-12 col-md-6 form-section">
+                    <form
+                      class="signup-form"
+                      action="https://formdump.codeinstitute.net/"
+                      method="post"
+                    >
+                      <label for="fname">First Name</label>
+                      <input
+                        class="text-input"
+                        type="text"
+                        id="fname"
+                        name="first_name"
+                        required
+                      />
+                      <label for="lname">Last Name</label>
+                      <input
+                        class="text-input"
+                        type="text"
+                        id="lname"
+                        name="last_name"
+                        required
+                      />
+                      <label for="email">Email Address</label>
+                      <input
+                        class="text-input"
+                        type="email"
+                        id="email"
+                        name="email_address"
+                        required
+                      />
+                      <label for="address">Address</label>
+                      <input
+                        class="text-input"
+                        type="text"
+                        id="address"
+                        name="address"
+                      />
+                      <input
+                        type="radio"
+                        id="newsletter"
+                        name="correspondence"
+                        value="newsletter"
+                      />
+                      <label for="newsletter">Accept terms</label>
+                      <input
+                        type="submit"
+                        class="btn btn-contact btn--cta btn--red"
+                        value="Send!"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

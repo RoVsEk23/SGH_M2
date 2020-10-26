@@ -169,11 +169,23 @@ header {
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .uppercase {
   text-transform: uppercase;
   text-align: center;
+}
+
+.opaque-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 360px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
 
 /*------------------------------------------------Media Queries */
@@ -214,4 +226,6 @@ header {
 
 div#map {
   min-height: 360px;
+  background-color: #fff;
+  border-radius: 5px;
 }
