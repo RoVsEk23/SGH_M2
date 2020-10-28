@@ -6,6 +6,10 @@
   background-color: #fafafa;
 }
 
+.bg-color-footer {
+  background-color: #fafafa;
+}
+
 /*------------------------------------------------Header */
 header {
   margin: 0;
@@ -48,7 +52,7 @@ header {
 .social-links {
   padding-bottom: 15px;
   margin: auto;
-  text-align: center;
+  float: right;
 }
 
 .social-links li a i {
@@ -112,6 +116,17 @@ header {
   width: 100%;
 }
 
+.btn--form {
+  cursor: pointer;
+  background-color: #3e362d;
+  border: 2px solid #3e362d;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
 /*------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
@@ -120,7 +135,14 @@ header {
   width: 100%;
 }
 
-.btn:hover {
+.btn--cta:hover {
+  color: #fafafa;
+  text-decoration: none;
+  background-color: #9a0d02;
+  border-color: #802103;
+}
+
+.btn--form:hover {
   color: #fafafa;
   text-decoration: none;
   background-color: #9a0d02;
@@ -145,6 +167,18 @@ header {
 .uppercase {
   text-transform: uppercase;
   text-align: center;
+}
+
+.footer-address {
+  text-align: center;
+  width: 100%;
+  font-weight: 100;
+  color: #000000;
+  text-decoration: none;
+  height: 30px;
+  margin-top: 35px;
+  display: block;
+  text-transform: uppercase;
 }
 
 /*------------------------------------------------Footer Form */
@@ -177,18 +211,6 @@ header {
   grid-column: 1 / 2;
 }
 
-.footer-address {
-  text-align: center;
-  padding-left: 150px;
-  width: 100%;
-  font-weight: 100;
-  color: #000000;
-  text-decoration: none;
-  height: 30px;
-  margin-top: 35px;
-  display: block;
-  text-transform: uppercase;
-}
 /*------------------------------------------------Media Queries */
 
 @media screen and (max-width: 992px) {
@@ -210,7 +232,7 @@ header {
     float: right;
   }
 
-  .header-button {
+  .btn--cta {
     display: none;
     width: 100%;
     flex-direction: column;
@@ -221,8 +243,19 @@ header {
     width: 100%;
     flex-direction: column;
   }
-}
 
+  .footer-form {
+    display: block;
+  }
+
+  .opaque-overlay {
+    height: auto;
+  }
+}
+.footer-social {
+  width: 100%;
+  flex-direction: column;
+}
 /*-------------------------------------------------------Maps */
 
 div#map {
