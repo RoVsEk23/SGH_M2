@@ -147,6 +147,8 @@ header {
   text-align: center;
 }
 
+/*------------------------------------------------Footer Form */
+
 .opaque-overlay {
   position: relative;
   top: 0;
@@ -158,6 +160,35 @@ header {
   width: 100%;
 }
 
+.footer-form {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 20px;
+}
+
+.text-input {
+  margin-right: 30px;
+}
+
+.footer-form .full {
+  grid-column: 1 / 2;
+}
+
+.footer-address {
+  text-align: center;
+  padding-left: 150px;
+  width: 100%;
+  font-weight: 100;
+  color: #000000;
+  text-decoration: none;
+  height: 30px;
+  margin-top: 35px;
+  display: block;
+  text-transform: uppercase;
+}
 /*------------------------------------------------Media Queries */
 
 @media screen and (max-width: 992px) {

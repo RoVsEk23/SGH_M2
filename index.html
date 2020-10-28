@@ -27,6 +27,13 @@
       type="text/css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <title>Home-SH</title>
   </head>
 
@@ -124,53 +131,112 @@
                 <div class="opaque-overlay">
                   <div class="col-12 col-md-6 form-section">
                     <form
-                      class="signup-form"
+                      class="footer-form"
                       action="https://formdump.codeinstitute.net/"
                       method="post"
                     >
-                      <label for="fname">First Name</label>
-                      <input
-                        class="text-input"
-                        type="text"
-                        id="fname"
-                        name="first_name"
-                        required
-                      />
-                      <label for="lname">Last Name</label>
-                      <input
-                        class="text-input"
-                        type="text"
-                        id="lname"
-                        name="last_name"
-                        required
-                      />
-                      <label for="email">Email Address</label>
-                      <input
-                        class="text-input"
-                        type="email"
-                        id="email"
-                        name="email_address"
-                        required
-                      />
-                      <label for="address">Address</label>
-                      <input
-                        class="text-input"
-                        type="text"
-                        id="address"
-                        name="address"
-                      />
-                      <input
-                        type="radio"
-                        id="newsletter"
-                        name="correspondence"
-                        value="newsletter"
-                      />
-                      <label for="newsletter">Accept terms</label>
-                      <input
-                        type="submit"
-                        class="btn btn--cta uppercase"
-                        value="Send!"
-                      />
+                      <p>
+                        <label for="fname">First Name</label>
+                        <input
+                          class="text-input"
+                          type="text"
+                          id="fname"
+                          placeholder="Enter First Name"
+                          name="first_name"
+                          required
+                        />
+                      </p>
+                      <p>
+                        <label for="lname">Surname</label>
+                        <input
+                          class="text-input"
+                          type="text"
+                          id="lname"
+                          placeholder="Enter Surname"
+                          name="last_name"
+                          required
+                        />
+                      </p>
+                      <p>
+                        <label for="phone">Phone</label>
+                        <input
+                          class="text-input"
+                          type="text"
+                          id="phone"
+                          placeholder="Phone number"
+                          name="phone"
+                          required
+                        />
+                      </p>
+                      <p>
+                        <label for="email">Email Address</label>
+                        <input
+                          class="text-input"
+                          type="email"
+                          id="email"
+                          placeholder="Enter Email"
+                          name="email_address"
+                          required
+                        />
+                      </p>
+                      <p>
+                        <label for="from">Arrival</label>
+                        <input
+                          type="text"
+                          id="from"
+                          placeholder="MM/DD/YYYY"
+                          name="from"
+                          required
+                        />
+                      </p>
+                      <p>
+                        <label for="to">Departure</label>
+                        <input
+                          type="text"
+                          id="to"
+                          placeholder="MM/DD/YYYY"
+                          name="to"
+                          required
+                        />
+                      </p>
+                      <p>
+                        <label for="rooms">Rooms</label>
+                        <select id="rooms" name="rooms">
+                          <option value="Room1">Room 1</option>
+                          <option value="Room2">Room 2</option>
+                          <option value="Room3">Room 3</option>
+                          <option value="Room4">Room 4</option>
+                        </select>
+                      </p>
+                      <p>
+                        <label for="guests">No. of Guests</label>
+                        <select id="guests" name="guests">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                        </select>
+                      </p>
+                      <p class="full">
+                        <label for="newsletter">Accept terms</label>
+                        <input
+                          type="radio"
+                          id="newsletter"
+                          name="correspondence"
+                          value="newsletter"
+                        />
+                      </p>
+                      <p class="full">
+                        <input
+                          type="submit"
+                          class="btn btn--cta uppercase"
+                          value="Send!"
+                        />
+                      </p>
                     </form>
                   </div>
                 </div>
@@ -178,10 +244,49 @@
             </div>
           </div>
         </div>
+        <div class="container-fluid">
+          <div class="row bg-color-header">
+            <a href="index.html" class="col-md-2 logo"></a>
+            <div class="col-md-10 col-lg-6">
+              <div class="row bg-color-header">
+                <p class="footer-address">
+                  ADDRESS: 13 Queensberry Pl Kensington, <br />
+                  London SW7 2DW
+                </p>
+              </div>
+            </div>
+            <div class="col-md-2 header-social">
+              <ul class="list-inline social-links">
+                <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                  <a href="#" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true">
+                      <span class="sr-only">Facebook</span>
+                    </i>
+                  </a>
+                </li>
+                <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                  <a href="#" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true">
+                      <span class="sr-only">Twitter</span>
+                    </i>
+                  </a>
+                </li>
+                <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                  <a href="#" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true">
+                      <span class="sr-only">Instagram</span>
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </footer>
     <script src="js/index.js"></script>
     <script src="js/maps.js"></script>
+    <script src="js/datepicker.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script
       async
