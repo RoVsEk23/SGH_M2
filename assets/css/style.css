@@ -162,7 +162,11 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 1.5rem;
-  /*grid-template-areas: ;*/
+  grid-template-areas:
+    "img-1 img-2 img-3"
+    "img-4 img-5 img-6"
+    "img-7 img-8 img-9"
+    "img-10 img-11 img-12";
 }
 
 .image-gallery a {
@@ -179,12 +183,91 @@ header {
 }
 
 .image-gallery a i {
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
   font-size: 3rem;
   position: relative;
   z-index: 100;
   padding: 1 rem 3 rem;
   border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.4rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image-gallery a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image-gallery a:hover i,
+.image-gallery a:hover::before {
+  opacity: 1;
+}
+
+.img-1 {
+  grid-area: img-1;
+  background-image: url("assets/images/living1.jpg");
+}
+
+.img-2 {
+  grid-area: img-2;
+  background-image: url("assets/images/living2.jpg");
+}
+
+.img-3 {
+  grid-area: img-3;
+  background-image: url("assets/images/living3.jpg");
+}
+
+.img-4 {
+  grid-area: img-4;
+  background-image: url("assets/images/dining1.jpg");
+}
+
+.img-5 {
+  grid-area: img-5;
+  background-image: url("assets/images/dining2.jpg");
+}
+
+.img-6 {
+  grid-area: img-6;
+  background-image: url("assets/images/kitchen1.jpg");
+}
+
+.img-7 {
+  grid-area: img-7;
+  background-image: url("assets/images/kitchen2.jpg");
+}
+
+.img-8 {
+  grid-area: img-8;
+  background-image: url("assets/images/balcony.jpg");
+}
+.img-9 {
+  grid-area: img-9;
+  background-image: url("assets/images/streetview1.jpg");
+}
+
+.img-10 {
+  grid-area: img-10;
+  background-image: url("assets/images/streetview2.jpg");
+}
+
+.img-11 {
+  grid-area: img-11;
+  background-image: url("assets/images/living1.jpg");
+}
+
+.img-12 {
+  grid-area: img-12;
+  background-image: url("assets/images/living1.jpg");
 }
 
 /*------------------------------------------------Footer */
