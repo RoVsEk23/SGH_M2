@@ -155,6 +155,8 @@ header {
   max-width: 120rem;
   margin: auto;
   padding: 0, 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .image-gallery {
@@ -165,8 +167,7 @@ header {
   grid-template-areas:
     "img-1 img-2 img-3"
     "img-4 img-5 img-6"
-    "img-7 img-8 img-9"
-    "img-10 img-11 img-12";
+    "img-7 img-8 img-9";
 }
 
 .image-gallery a {
@@ -213,61 +214,46 @@ header {
 
 .img-1 {
   grid-area: img-1;
-  background-image: url("assets/images/living1.jpg");
+  background-image: url("../images/living1.jpg");
 }
 
 .img-2 {
   grid-area: img-2;
-  background-image: url("assets/images/living2.jpg");
+  background-image: url("../images/living2.jpg");
 }
 
 .img-3 {
   grid-area: img-3;
-  background-image: url("assets/images/living3.jpg");
+  background-image: url("../images/living3.jpg");
 }
 
 .img-4 {
   grid-area: img-4;
-  background-image: url("assets/images/dining1.jpg");
+  background-image: url("../images/dining1.jpg");
 }
 
 .img-5 {
   grid-area: img-5;
-  background-image: url("assets/images/dining2.jpg");
+  background-image: url("../images/dining2.jpg");
 }
 
 .img-6 {
   grid-area: img-6;
-  background-image: url("assets/images/kitchen1.jpg");
+  background-image: url("../images/kitchen1.jpg");
 }
 
 .img-7 {
   grid-area: img-7;
-  background-image: url("assets/images/kitchen2.jpg");
+  background-image: url("../images/kitchen2.jpg");
 }
 
 .img-8 {
   grid-area: img-8;
-  background-image: url("assets/images/balcony.jpg");
+  background-image: url("../images/streetview2.jpg");
 }
 .img-9 {
   grid-area: img-9;
-  background-image: url("assets/images/streetview1.jpg");
-}
-
-.img-10 {
-  grid-area: img-10;
-  background-image: url("assets/images/streetview2.jpg");
-}
-
-.img-11 {
-  grid-area: img-11;
-  background-image: url("assets/images/living1.jpg");
-}
-
-.img-12 {
-  grid-area: img-12;
-  background-image: url("assets/images/living1.jpg");
+  background-image: url("../images/streetview1.jpg");
 }
 
 /*------------------------------------------------Footer */
