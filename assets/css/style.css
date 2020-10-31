@@ -129,7 +129,7 @@ header {
 /*------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   height: 35px;
   width: 100%;
 }
@@ -165,8 +165,9 @@ header {
   grid-template-rows: auto;
   grid-gap: 1.5rem;
   grid-template-areas:
-    "img-1 img-2 img-3"
-    "img-4 img-5 img-6"
+    "img-1 img-1 img-2"
+    "img-4 img-3 img-3"
+    "img-6 img-6 img-5"
     "img-7 img-8 img-9";
 }
 
