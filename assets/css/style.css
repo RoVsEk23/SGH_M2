@@ -159,7 +159,7 @@ header {
   margin-bottom: 1.5rem;
 }
 
-.image-gallery {
+.house-image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -171,7 +171,7 @@ header {
     "img-7 img-8 img-9";
 }
 
-.image-gallery a {
+.house-image-gallery a {
   width: 100%;
   height: 25rem;
   background-position: center;
@@ -184,7 +184,7 @@ header {
   text-decoration: none;
 }
 
-.image-gallery a i {
+.house-image-gallery a i {
   color: rgba(255, 255, 255, 0.6);
   font-size: 3rem;
   position: relative;
@@ -196,7 +196,7 @@ header {
   transition: opacity 0.5s;
 }
 
-.image-gallery a::before {
+.house-image-gallery a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -208,8 +208,8 @@ header {
   transition: opacity 0.5s;
 }
 
-.image-gallery a:hover i,
-.image-gallery a:hover::before {
+.house-image-gallery a:hover i,
+.house-image-gallery a:hover::before {
   opacity: 1;
 }
 
@@ -255,6 +255,119 @@ header {
 .img-9 {
   grid-area: img-9;
   background-image: url("../images/streetview1.jpg");
+}
+
+.house-image-text {
+  font-family: "exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/*------------------------------------------------Rooms images */
+
+.container {
+  width: 100%;
+  max-width: 120rem;
+  margin: auto;
+  padding: 0, 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.rooms-image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+    "r-img-1 r-img-2 r-img-3"
+    "r-img-4 r-img-5 r-img-6";
+}
+
+.rooms-image-gallery a {
+  width: 100%;
+  height: 25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.rooms-image-gallery a i {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 3rem;
+  position: relative;
+  z-index: 100;
+  padding: 1 rem 3 rem;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.4rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.rooms-image-gallery a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.rooms-image-gallery a:hover i,
+.rooms-image-gallery a:hover::before {
+  opacity: 1;
+}
+
+.r-img-1 {
+  grid-area: r-img-1;
+  background-image: url("../images/bedroom1.jpg");
+}
+
+.r-img-2 {
+  grid-area: r-img-2;
+  background-image: url("../images/bedroom2.jpg");
+}
+
+.r-img-3 {
+  grid-area: r-img-3;
+  background-image: url("../images/bedroom3.jpg");
+}
+
+.r-img-4 {
+  grid-area: r-img-4;
+  background-image: url("../images/bedroom4.jpg");
+}
+
+.r-img-5 {
+  grid-area: r-img-5;
+  background-image: url("../images/bathroom1.jpg");
+}
+
+.r-img-6 {
+  grid-area: r-img-6;
+  background-image: url("../images/bathroom2.jpg");
+}
+
+.house-image-text {
+  font-family: "exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
 
 /*------------------------------------------------Footer */
@@ -383,6 +496,10 @@ header {
 
   .opaque-overlay {
     height: auto;
+  }
+
+  .house-image-text {
+    font-size: 20px;
   }
 }
 
