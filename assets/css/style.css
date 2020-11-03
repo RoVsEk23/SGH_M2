@@ -148,6 +148,28 @@ header {
   border-color: #802103;
 }
 
+/*------------------------------------------------Breadcrumb */
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #fafafa;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "|";
+  font-family: "Exo", sans-serif;
+  font-weight: 200;
+}
+ul.breadcrumb li a {
+  color: #9a0d02;
+  text-decoration: none;
+}
 /*------------------------------------------------Homepage images */
 
 .container {
