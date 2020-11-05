@@ -33,9 +33,10 @@ header {
 }
 
 .menuitem a {
+  font-family: "Roboto", sans-serif;
   width: 100%;
-  font-weight: 100;
-  color: #000000;
+  font-weight: 300;
+  color: #3e362d;
   text-decoration: none;
   height: 30px;
   margin-top: 35px;
@@ -90,7 +91,7 @@ header {
 .hamburger {
   background-color: transparent;
   border: 0;
-  color: #000000;
+  color: #3e362d;
   font-size: 40px;
   display: none;
   cursor: pointer;
@@ -287,6 +288,7 @@ ul.breadcrumb li a {
   position: absolute;
   bottom: 8px;
   left: 16px;
+  font-size: 18px;
 }
 
 /*------------------------------------------------Rooms images */
@@ -392,6 +394,33 @@ ul.breadcrumb li a {
   left: 16px;
 }
 
+/*------------------------------------------------Services text */
+
+.service-section-heading {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.block-divider {
+  width: 150px;
+  height: 5px;
+  border: 0;
+  background-color: #444;
+}
+
+.block-divider--red {
+  background-color: #e04d4d;
+}
+
+.para-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
 /*------------------------------------------------Footer */
 .section-column {
   display: table-cell;
@@ -416,7 +445,7 @@ ul.breadcrumb li a {
   text-align: center;
   width: 100%;
   font-weight: 100;
-  color: #000000;
+  color: #3e362d;
   text-decoration: none;
   height: 30px;
   margin-top: 35px;
@@ -463,7 +492,8 @@ ul.breadcrumb li a {
   font-weight: 300;
   font-size: 13px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   padding: 20px 20px;
 }
 
@@ -512,16 +542,28 @@ ul.breadcrumb li a {
     flex-direction: column;
   }
 
-  .footer-form {
-    display: block;
-  }
-
   .opaque-overlay {
     height: auto;
   }
 
   .house-image-text {
     font-size: 20px;
+  }
+
+  .footer-form {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .footer-form {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 20px 20px;
   }
 }
 
