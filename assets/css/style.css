@@ -154,7 +154,7 @@ header {
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
-  background-color: #fafafa;
+  background-color: #dadada;
 }
 ul.breadcrumb li {
   display: inline;
@@ -397,7 +397,7 @@ ul.breadcrumb li a {
 /*------------------------------------------------Services text */
 
 .service-section-heading {
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo", sans-serif;
   text-align: center;
   font-weight: 300;
   margin-top: 20px;
