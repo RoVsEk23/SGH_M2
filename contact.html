@@ -140,7 +140,225 @@
       </div>
     </div>
     <div class="container">
-      <div class="row"></div>
+      <div class="row">
+        <div class="col-md-4 bg-color-groups">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="section-heading uppercase">
+                Contact Us <i class="fas fa-phone"></i>
+              </h3>
+            </div>
+
+            <div class="container-fluid form-banner-container">
+              <div class="opaque-overlay">
+                <div class="col-12 col-md-6 form-section">
+                  <form
+                    class="footer-form"
+                    action="https://formdump.codeinstitute.net/"
+                    method="post"
+                  >
+                    <p>
+                      <label for="fname">First Name</label>
+                      <input
+                        class="text-input"
+                        type="text"
+                        id="fname"
+                        placeholder="Enter First Name"
+                        name="first_name"
+                        required
+                      />
+                    </p>
+                    <p>
+                      <label for="lname">Surname</label>
+                      <input
+                        class="text-input"
+                        type="text"
+                        id="lname"
+                        placeholder="Enter Surname"
+                        name="last_name"
+                        required
+                      />
+                    </p>
+                    <p>
+                      <label for="phone">Phone number</label>
+                      <input
+                        class="text-input"
+                        type="text"
+                        id="phone"
+                        placeholder="Phone number"
+                        name="phone"
+                        required
+                      />
+                    </p>
+                    <p>
+                      <label for="email">Email Address</label>
+                      <input
+                        class="text-input"
+                        type="email"
+                        id="email"
+                        placeholder="Enter Email"
+                        name="email_address"
+                        required
+                      />
+                    </p>
+
+                    <p class="full">
+                      <label for="newsletter">Accept terms</label>
+                      <input
+                        type="radio"
+                        id="newsletter"
+                        name="correspondence"
+                        value="newsletter"
+                      />
+                    </p>
+                    <p class="full">
+                      <input
+                        type="submit"
+                        class="btn--form uppercase"
+                        value="Send!"
+                      />
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 contact-address">
+          <h3 class="service-section-heading uppercase">
+            Address <i class="fas fa-address-card"></i>
+          </h3>
+        </div>
+        <div class="col-md-4 exchange-cal">
+          <h3 class="service-section-heading uppercase">
+            Exchange Calculator <i class="fas fa-money-bill-wave"></i>
+          </h3>
+          <div class="opaque-overlay">
+          <div class="currency">
+            <select id="currency-one">
+              <option value="AED">AED</option>
+              <option value="ARS">ARS</option>
+              <option value="AUD">AUD</option>
+              <option value="BGN">BGN</option>
+              <option value="BRL">BRL</option>
+              <option value="BSD">BSD</option>
+              <option value="CAD">CAD</option>
+              <option value="CHF">CHF</option>
+              <option value="CLP">CLP</option>
+              <option value="CNY">CNY</option>
+              <option value="COP">COP</option>
+              <option value="CZK">CZK</option>
+              <option value="DKK">DKK</option>
+              <option value="DOP">DOP</option>
+              <option value="EGP">EGP</option>
+              <option value="EUR" selected>EUR</option>
+              <option value="FJD">FJD</option>
+              <option value="GBP">GBP</option>
+              <option value="GTQ">GTQ</option>
+              <option value="HKD">HKD</option>
+              <option value="HRK">HRK</option>
+              <option value="HUF">HUF</option>
+              <option value="IDR">IDR</option>
+              <option value="ILS">ILS</option>
+              <option value="INR">INR</option>
+              <option value="ISK">ISK</option>
+              <option value="JPY">JPY</option>
+              <option value="KRW">KRW</option>
+              <option value="KZT">KZT</option>
+              <option value="MXN">MXN</option>
+              <option value="MYR">MYR</option>
+              <option value="NOK">NOK</option>
+              <option value="NZD">NZD</option>
+              <option value="PAB">PAB</option>
+              <option value="PEN">PEN</option>
+              <option value="PHP">PHP</option>
+              <option value="PKR">PKR</option>
+              <option value="PLN">PLN</option>
+              <option value="PYG">PYG</option>
+              <option value="RON">RON</option>
+              <option value="RUB">RUB</option>
+              <option value="SAR">SAR</option>
+              <option value="SEK">SEK</option>
+              <option value="SGD">SGD</option>
+              <option value="THB">THB</option>
+              <option value="TRY">TRY</option>
+              <option value="TWD">TWD</option>
+              <option value="UAH">UAH</option>
+              <option value="USD">USD</option>
+              <option value="UYU">UYU</option>
+              <option value="VND">VND</option>
+              <option value="ZAR">ZAR</option>
+            </select>
+            <input type="number" id="amount-one" placeholder="0" value="1" />
+          </div>
+
+          <div class="swap-rate-container">
+            <button class="btn" id="swap">
+              Swap
+            </button>
+            <div class="rate" id="rate"></div>
+          </div>
+
+          <div class="currency">
+            <select id="currency-two">
+              <option value="AED">AED</option>
+              <option value="ARS">ARS</option>
+              <option value="AUD">AUD</option>
+              <option value="BGN">BGN</option>
+              <option value="BRL">BRL</option>
+              <option value="BSD">BSD</option>
+              <option value="CAD">CAD</option>
+              <option value="CHF">CHF</option>
+              <option value="CLP">CLP</option>
+              <option value="CNY">CNY</option>
+              <option value="COP">COP</option>
+              <option value="CZK">CZK</option>
+              <option value="DKK">DKK</option>
+              <option value="DOP">DOP</option>
+              <option value="EGP">EGP</option>
+              <option value="EUR">EUR</option>
+              <option value="FJD">FJD</option>
+              <option value="GBP" selected>GBP</option>
+              <option value="GTQ">GTQ</option>
+              <option value="HKD">HKD</option>
+              <option value="HRK">HRK</option>
+              <option value="HUF">HUF</option>
+              <option value="IDR">IDR</option>
+              <option value="ILS">ILS</option>
+              <option value="INR">INR</option>
+              <option value="ISK">ISK</option>
+              <option value="JPY">JPY</option>
+              <option value="KRW">KRW</option>
+              <option value="KZT">KZT</option>
+              <option value="MXN">MXN</option>
+              <option value="MYR">MYR</option>
+              <option value="NOK">NOK</option>
+              <option value="NZD">NZD</option>
+              <option value="PAB">PAB</option>
+              <option value="PEN">PEN</option>
+              <option value="PHP">PHP</option>
+              <option value="PKR">PKR</option>
+              <option value="PLN">PLN</option>
+              <option value="PYG">PYG</option>
+              <option value="RON">RON</option>
+              <option value="RUB">RUB</option>
+              <option value="SAR">SAR</option>
+              <option value="SEK">SEK</option>
+              <option value="SGD">SGD</option>
+              <option value="THB">THB</option>
+              <option value="TRY">TRY</option>
+              <option value="TWD">TWD</option>
+              <option value="UAH">UAH</option>
+              <option value="USD">USD</option>
+              <option value="UYU">UYU</option>
+              <option value="VND">VND</option>
+              <option value="ZAR">ZAR</option>
+            </select>
+            <input type="number" id="amount-two" placeholder="0" />
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
     <!---------------------------------------Footer----------------------------------------->
     <footer>
@@ -324,6 +542,7 @@
     <script src="assets/js/index.js"></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/exchange.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script
       async
