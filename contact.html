@@ -141,22 +141,18 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 bg-color-groups">
+        <div class="col-md-5">
           <div class="row">
             <div class="col-12">
               <h3 class="section-heading uppercase">
-                Contact Us <i class="fas fa-phone"></i>
+                General Enquiry <i class="fas fa-phone"></i>
               </h3>
             </div>
 
             <div class="container-fluid form-banner-container">
               <div class="opaque-overlay">
                 <div class="col-12 col-md-6 form-section">
-                  <form
-                    class="footer-form"
-                    action="https://formdump.codeinstitute.net/"
-                    method="post"
-                  >
+                  <form class="footer-form" action="#" method="post">
                     <p>
                       <label for="fname">First Name</label>
                       <input
@@ -201,6 +197,15 @@
                         required
                       />
                     </p>
+                    <label for="message">Message:</label>
+                    <textarea
+                      rows="5"
+                      name="message"
+                      id="message"
+                      class="text-input"
+                      placeholder="Message"
+                      required
+                    ></textarea>
 
                     <p class="full">
                       <label for="newsletter">Accept terms</label>
@@ -224,140 +229,157 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 contact-address">
+        <div class="col-md-4">
           <h3 class="service-section-heading uppercase">
             Address <i class="fas fa-address-card"></i>
           </h3>
+          <div class="contact-address">
+            <p class="contact-address-text uppercase">
+              13 QUEENSBERRY PL KENSINGTON, <br />
+              LONDON SW7 2DW <br />
+              <i class="fas fa-phone"></i> +44 - 123-456-7890
+            </p>
+            <p class="contact-address-text uppercase">
+              directions <i class="fas fa-directions"></i><br />
+            </p>
+            <p class="contact-directions-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+              aut officia, dolorem placeat magnam voluptas, velit nam quam totam
+              aliquid natus sint labore earum minus alias a dignissimos tempore?
+              Architecto?
+            </p>
+          </div>
         </div>
-        <div class="col-md-4 exchange-cal">
+        <div class="col-md-3 exchange-cal">
           <h3 class="service-section-heading uppercase">
-            Exchange Calculator <i class="fas fa-money-bill-wave"></i>
+            <i class="fas fa-pound-sign"></i> Calculator
+            <i class="fas fa-money-bill-wave"></i>
           </h3>
           <div class="opaque-overlay">
-          <div class="currency">
-            <select id="currency-one">
-              <option value="AED">AED</option>
-              <option value="ARS">ARS</option>
-              <option value="AUD">AUD</option>
-              <option value="BGN">BGN</option>
-              <option value="BRL">BRL</option>
-              <option value="BSD">BSD</option>
-              <option value="CAD">CAD</option>
-              <option value="CHF">CHF</option>
-              <option value="CLP">CLP</option>
-              <option value="CNY">CNY</option>
-              <option value="COP">COP</option>
-              <option value="CZK">CZK</option>
-              <option value="DKK">DKK</option>
-              <option value="DOP">DOP</option>
-              <option value="EGP">EGP</option>
-              <option value="EUR" selected>EUR</option>
-              <option value="FJD">FJD</option>
-              <option value="GBP">GBP</option>
-              <option value="GTQ">GTQ</option>
-              <option value="HKD">HKD</option>
-              <option value="HRK">HRK</option>
-              <option value="HUF">HUF</option>
-              <option value="IDR">IDR</option>
-              <option value="ILS">ILS</option>
-              <option value="INR">INR</option>
-              <option value="ISK">ISK</option>
-              <option value="JPY">JPY</option>
-              <option value="KRW">KRW</option>
-              <option value="KZT">KZT</option>
-              <option value="MXN">MXN</option>
-              <option value="MYR">MYR</option>
-              <option value="NOK">NOK</option>
-              <option value="NZD">NZD</option>
-              <option value="PAB">PAB</option>
-              <option value="PEN">PEN</option>
-              <option value="PHP">PHP</option>
-              <option value="PKR">PKR</option>
-              <option value="PLN">PLN</option>
-              <option value="PYG">PYG</option>
-              <option value="RON">RON</option>
-              <option value="RUB">RUB</option>
-              <option value="SAR">SAR</option>
-              <option value="SEK">SEK</option>
-              <option value="SGD">SGD</option>
-              <option value="THB">THB</option>
-              <option value="TRY">TRY</option>
-              <option value="TWD">TWD</option>
-              <option value="UAH">UAH</option>
-              <option value="USD">USD</option>
-              <option value="UYU">UYU</option>
-              <option value="VND">VND</option>
-              <option value="ZAR">ZAR</option>
-            </select>
-            <input type="number" id="amount-one" placeholder="0" value="1" />
-          </div>
+            <div class="currency">
+              <select id="currency-one">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR" selected>EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD">USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+              </select>
+              <input type="number" id="amount-one" placeholder="0" value="1" />
+            </div>
 
-          <div class="swap-rate-container">
-            <button class="btn" id="swap">
-              Swap
-            </button>
-            <div class="rate" id="rate"></div>
-          </div>
+            <div class="swap-rate-container">
+              <button class="btn--form uppercase" id="swap">
+                Swap
+              </button>
+              <div class="rate" id="rate"></div>
+            </div>
 
-          <div class="currency">
-            <select id="currency-two">
-              <option value="AED">AED</option>
-              <option value="ARS">ARS</option>
-              <option value="AUD">AUD</option>
-              <option value="BGN">BGN</option>
-              <option value="BRL">BRL</option>
-              <option value="BSD">BSD</option>
-              <option value="CAD">CAD</option>
-              <option value="CHF">CHF</option>
-              <option value="CLP">CLP</option>
-              <option value="CNY">CNY</option>
-              <option value="COP">COP</option>
-              <option value="CZK">CZK</option>
-              <option value="DKK">DKK</option>
-              <option value="DOP">DOP</option>
-              <option value="EGP">EGP</option>
-              <option value="EUR">EUR</option>
-              <option value="FJD">FJD</option>
-              <option value="GBP" selected>GBP</option>
-              <option value="GTQ">GTQ</option>
-              <option value="HKD">HKD</option>
-              <option value="HRK">HRK</option>
-              <option value="HUF">HUF</option>
-              <option value="IDR">IDR</option>
-              <option value="ILS">ILS</option>
-              <option value="INR">INR</option>
-              <option value="ISK">ISK</option>
-              <option value="JPY">JPY</option>
-              <option value="KRW">KRW</option>
-              <option value="KZT">KZT</option>
-              <option value="MXN">MXN</option>
-              <option value="MYR">MYR</option>
-              <option value="NOK">NOK</option>
-              <option value="NZD">NZD</option>
-              <option value="PAB">PAB</option>
-              <option value="PEN">PEN</option>
-              <option value="PHP">PHP</option>
-              <option value="PKR">PKR</option>
-              <option value="PLN">PLN</option>
-              <option value="PYG">PYG</option>
-              <option value="RON">RON</option>
-              <option value="RUB">RUB</option>
-              <option value="SAR">SAR</option>
-              <option value="SEK">SEK</option>
-              <option value="SGD">SGD</option>
-              <option value="THB">THB</option>
-              <option value="TRY">TRY</option>
-              <option value="TWD">TWD</option>
-              <option value="UAH">UAH</option>
-              <option value="USD">USD</option>
-              <option value="UYU">UYU</option>
-              <option value="VND">VND</option>
-              <option value="ZAR">ZAR</option>
-            </select>
-            <input type="number" id="amount-two" placeholder="0" />
+            <div class="currency">
+              <select id="currency-two">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP" selected>GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD">USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+              </select>
+              <input type="number" id="amount-two" placeholder="0" />
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
     <!---------------------------------------Footer----------------------------------------->
@@ -374,7 +396,7 @@
             </div>
             <div id="map"></div>
           </div>
-          <div class="col-md-5 bg-color-groups">
+          <div class="col-md-5">
             <div class="row">
               <div class="col-12">
                 <h3 class="section-heading uppercase">
@@ -382,20 +404,16 @@
                 </h3>
               </div>
 
-              <div class="container-fluid form-banner-container">
+              <div class="container-fluid">
                 <div class="opaque-overlay">
-                  <div class="col-12 col-md-6 form-section">
-                    <form
-                      class="footer-form"
-                      action="https://formdump.codeinstitute.net/"
-                      method="post"
-                    >
+                  <div class="col-12 col-md-6">
+                    <form class="footer-form" action="#" method="post">
                       <p>
                         <label for="fname">First Name</label>
                         <input
                           class="text-input"
                           type="text"
-                          id="fname"
+                          id="Fname"
                           placeholder="Enter First Name"
                           name="first_name"
                           required
@@ -406,7 +424,7 @@
                         <input
                           class="text-input"
                           type="text"
-                          id="lname"
+                          id="Lname"
                           placeholder="Enter Surname"
                           name="last_name"
                           required
@@ -417,7 +435,7 @@
                         <input
                           class="text-input"
                           type="text"
-                          id="phone"
+                          id="Phone"
                           placeholder="Phone number"
                           name="phone"
                           required
@@ -428,7 +446,7 @@
                         <input
                           class="text-input"
                           type="email"
-                          id="email"
+                          id="Email"
                           placeholder="Enter Email"
                           name="email_address"
                           required
@@ -480,7 +498,7 @@
                         <label for="newsletter">Accept terms</label>
                         <input
                           type="radio"
-                          id="newsletter"
+                          id="Newsletter"
                           name="correspondence"
                           value="newsletter"
                         />
@@ -512,21 +530,21 @@
             </div>
             <div class="col-md-4 footer-social">
               <ul class="list-inline footer-social-links">
-                <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                <li class="list-inline-item menuitem">
                   <a href="#" target="_blank">
                     <i class="fa fa-facebook" aria-hidden="true">
                       <span class="sr-only">Facebook</span>
                     </i>
                   </a>
                 </li>
-                <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                <li class="list-inline-item menuitem">
                   <a href="#" target="_blank">
                     <i class="fa fa-twitter" aria-hidden="true">
                       <span class="sr-only">Twitter</span>
                     </i>
                   </a>
                 </li>
-                <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                <li class="list-inline-item menuitem">
                   <a href="#" target="_blank">
                     <i class="fa fa-instagram" aria-hidden="true">
                       <span class="sr-only">Instagram</span>

@@ -6,7 +6,7 @@ const amountEl_two = document.getElementById("amount-two");
 const rateEl = document.getElementById("rate");
 const swap = document.getElementById("swap");
 
-// Fetch exchange rates and update the DOM
+// ---------------------------------------Fetch exchange rates and update 
 function caclulate() {
   const currency_one = currencyEl_one.value;
   const currency_two = currencyEl_two.value;
@@ -23,7 +23,7 @@ function caclulate() {
     });
 }
 
-// Event listeners
+// --------------------------------------------- Event listeners
 currencyEl_one.addEventListener("change", caclulate);
 amountEl_one.addEventListener("input", caclulate);
 currencyEl_two.addEventListener("change", caclulate);
