@@ -127,6 +127,17 @@ header {
   font-size: 16px;
   width: auto;
 }
+
+.clear--btn {
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #3e362d;
+  border-radius: 2px;
+  color: #3e362d;
+  display: block;
+  font-size: 10px;
+  width: auto;
+}
 /*------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
@@ -617,6 +628,11 @@ button:focus {
   width: 100%;
   flex-direction: column;
 }
+
+.footer-form textarea {
+  margin-bottom: 20px;
+}
+
 /*------------------------------------------------Media Queries */
 
 @media screen and (max-width: 992px) {

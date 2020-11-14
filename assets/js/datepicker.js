@@ -3,8 +3,9 @@ $(function () {
     from = $("#from")
       .datepicker({
         defaultDate: "+1w",
-        changeMonth: true,
+        changeMonth: false,
         numberOfMonths: 2,
+        minDate: +1,
       })
       .on("change", function () {
         to.datepicker("option", "minDate", getDate(this));
@@ -12,7 +13,7 @@ $(function () {
     to = $("#to")
       .datepicker({
         defaultDate: "+1w",
-        changeMonth: true,
+        changeMonth: false,
         numberOfMonths: 2,
       })
       .on("change", function () {
@@ -29,4 +30,9 @@ $(function () {
 
     return date;
   }
+  var $dates = $("#from, #to").datepicker();
+
+  $("#clear-dates").on("click", function () {
+    $dates.datepicker("setDate", null);
+  });
 });
