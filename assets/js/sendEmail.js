@@ -1,4 +1,5 @@
 function sendMail(contactForm) {
+  emailjs.init("user_bziEz8YmnFB7Ym0Cd8YHR");
   emailjs
     .send("gmail", "template_2nj0eqo", {
       from_name: contactForm.first_name.value,
@@ -19,8 +20,9 @@ function sendMail(contactForm) {
 }
 
 function sendEmail(contactFform) {
+  emailjs.init("user_bziEz8YmnFB7Ym0Cd8YHR");
   emailjs
-    .send("gmail", "template_wezvldr", {
+    .send("gmail", "template_222hg499", {
       from_name: contactFform.first_name.value,
       from_surname: contactFform.last_name.value,
       from_phone: contactFform.phone_number.value,
