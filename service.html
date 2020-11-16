@@ -1,224 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Services-SH</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
-	<link rel="stylesheet" href="/resources/demos/style.css" />
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<title>Home-SH</title>
-</head>
-
-<body>
-	<!---------------------------------------Header----------------------------------------->
-	<header>
-		<div class="container-fluid">
-			<div class="row bg-color-header">
-				<a href="index.html" class="col-md-2 logo"></a>
-				<div class="col-md-10 col-lg-6">
-					<div class="row">
-						<div class="col-md-12">
-							<button class="hamburger" id="hamburger">
+  <body>
+    <!---------------------------------------Header----------------------------------------->
+    <header>
+      <div class="container-fluid">
+        <div class="row bg-color-header">
+          <a href="index.html" class="col-md-2 logo"></a>
+          <div class="col-md-10 col-lg-6">
+            <div class="row">
+              <div class="col-md-12">
+                <button class="hamburger" id="hamburger">
                   <i class="fas fa-bars"></i>
                 </button>
-							<ul id="nav" class="list-inline menu-list">
-								<li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
-									<a href="index.html" class="hvr-sweep-to-bottom"
-										aria-hidden="true"><span>The House</span></a>
-								</li>
-								<li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
-									<a href="rooms.html" class="hvr-sweep-to-bottom"
-										aria-hidden="true"><span>Rooms</span></a>
-								</li>
-								<li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
-									<a href="service.html" class="hvr-sweep-to-bottom"
-										aria-hidden="true"><span>Service</span></a>
-								</li>
-								<li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
-									<a href="contact.html" class="hvr-sweep-to-bottom"
-										aria-hidden="true"><span>Contact Us</span></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<a href="#footerform" class="btn--cta uppercase">Check Availability</a>
-				</div>
-				<div class="col-md-2 header-social">
-					<ul class="list-inline social-links">
-						<li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
-							<a href="#" target="_blank">
-								<i class="fa fa-facebook" aria-hidden="true">
+                <ul id="nav" class="list-inline menu-list">
+                  <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                    <a
+                      href="index.html"
+                      class="hvr-sweep-to-bottom"
+                      aria-hidden="true"
+                      ><span>The House</span></a
+                    >
+                  </li>
+                  <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                    <a
+                      href="rooms.html"
+                      class="hvr-sweep-to-bottom"
+                      aria-hidden="true"
+                      ><span>Rooms</span></a
+                    >
+                  </li>
+                  <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                    <a
+                      href="service.html"
+                      class="hvr-sweep-to-bottom"
+                      aria-hidden="true"
+                      ><span>Services</span></a
+                    >
+                  </li>
+                  <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                    <a
+                      href="contact.html"
+                      class="hvr-sweep-to-bottom"
+                      aria-hidden="true"
+                      ><span>Contact Us</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <a href="#footerform" class="btn--cta uppercase"
+              >Check Availability</a
+            >
+          </div>
+          <div class="col-md-2 header-social">
+            <ul class="list-inline social-links">
+              <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                <a href="#" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true">
                     <span class="sr-only">Facebook</span>
                   </i>
-							</a>
-						</li>
-						<li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
-							<a href="#" target="_blank">
-								<i class="fa fa-twitter" aria-hidden="true">
+                </a>
+              </li>
+              <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                <a href="#" target="_blank">
+                  <i class="fa fa-twitter" aria-hidden="true">
                     <span class="sr-only">Twitter</span>
                   </i>
-							</a>
-						</li>
-						<li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
-							<a href="#" target="_blank">
-								<i class="fa fa-instagram" aria-hidden="true">
+                </a>
+              </li>
+              <li class="col-6 col-md-2 col-sm-3 list-inline-item menuitem">
+                <a href="#" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true">
                     <span class="sr-only">Instagram</span>
                   </i>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!---------------------------------------Breadcrumb----------------------------------------->
-	<nav aria-label="breadcrumb">
-		<ul class="breadcrumb">
-			<li><a href="index.html">The House</a></li>
-			<li><a class="active">Services</a></li>
-		</ul>
-	</nav>
-	<!---------------------------------------Services section-------------------------------->
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<h3 class="service-section-heading uppercase">Services</h3>
-				<hr class="block-divider block-divider--red" />
-				<p class="para-text">
-					At Selsey House, we care about the well-being of our Guests. Hence,
-					we offer exclusive services and we are extremely attentive to all
-					our Guests requests. In order to make our Guests visit as smooth and
-					enjoyable as possible, we put you in contact with the best
-					professionals in the city and to organize transfers, trips and
-					excursions. Our goal is to make your stay in London, for business or
-					for pleasure, an unforgettable experience.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="row">
-					<div class="col-12">
-						<h3 class="service-section-heading uppercase">
-							<i class="fas fa-coffee"></i><br />Complimentary
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!---------------------------------------Breadcrumb----------------------------------------->
+    <nav aria-label="breadcrumb">
+      <ul class="breadcrumb">
+        <li><a href="index.html">The House</a></li>
+        <li><a class="active">Services</a></li>
+      </ul>
+    </nav>
+    <!---------------------------------------Services section-------------------------------->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="service-section-heading uppercase">Services</h3>
+          <hr class="block-divider block-divider--red" />
+          <p class="para-text">
+            At Selsey House, we care about the well-being of our Guests. Hence,
+            we offer exclusive services and we are extremely attentive to all
+            our Guests requests. In order to make our Guests visit as smooth and
+            enjoyable as possible, we put you in contact with the best
+            professionals in the city and to organize transfers, trips and
+            excursions. Our goal is to make your stay in London, for business or
+            for pleasure, an unforgettable experience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="service-section-heading uppercase">
+                <i class="fas fa-coffee"></i><br />Complimentary
               </h3>
-							<hr class="block-divider block-divider--red" />
-							<p class="para-text">
-								<i class="fas fa-check"></i> Welcome drink (any beverage of your
-								choice) <br />
-								<i class="fas fa-check"></i> Breakfast in room<br />
-								<i class="fas fa-check"></i> Private bathroom with shower <br />
-								<i class="fas fa-check"></i> Bathrobe and toileteries <br />
-								<i class="fas fa-check"></i> Slippers <br />
+              <hr class="block-divider block-divider--red" />
+              <p class="para-text">
+                <i class="fas fa-check"></i> Welcome drink (any beverage of your
+                choice) <br />
+                <i class="fas fa-check"></i> Breakfast in room<br />
+                <i class="fas fa-check"></i> Private bathroom with shower <br />
+                <i class="fas fa-check"></i> Bathrobe and toileteries <br />
+                <i class="fas fa-check"></i> Slippers <br />
               </p>
-					</div>
-				</div>
-			</div>
+            </div>
+          </div>
+        </div>
 
-			<div class="col-md-3">
-				<div class="row">
-					<div class="col-12">
-						<h3 class="service-section-heading uppercase">
-							<i class="fas fa-tshirt"></i><br />On Demand
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="service-section-heading uppercase">
+                <i class="fas fa-tshirt"></i><br />On Demand
               </h3>
-							<hr class="block-divider block-divider--red" />
-							<p class="para-text">
-								<i class="fas fa-check"></i> Laundry service <br />
-								<i class="fas fa-check"></i> Hairdresser <br />
-								<i class="fas fa-check"></i> Tailor <br />
+              <hr class="block-divider block-divider--red" />
+              <p class="para-text">
+                <i class="fas fa-check"></i> Laundry service <br />
+                <i class="fas fa-check"></i> Hairdresser <br />
+                <i class="fas fa-check"></i> Tailor <br />
               </p>
-					</div>
-				</div>
-			</div>
+            </div>
+          </div>
+        </div>
 
-			<div class="col-md-3">
-				<div class="row">
-					<div class="col-12">
-						<h3 class="service-section-heading uppercase">
-							<i class="fas fa-tv"></i><br />In Room
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="service-section-heading uppercase">
+                <i class="fas fa-tv"></i><br />In Room
               </h3>
-							<hr class="block-divider block-divider--red" />
-							<p class="para-text">
-								<i class="fas fa-check"></i> Free fiber optic wi-fi <br />
-								<i class="fas fa-check"></i> 50" flat screen smart tv <br />
-								<i class="fas fa-check"></i> Sky, HBO and other satellite
-								channels <br />
-								<i class="fas fa-check"></i> Centralized temperature control
-								<br />
-								<i class="fas fa-check"></i> Ironing board and iron <br />
-								<i class="fas fa-check"></i> Fridge bar <br />
-								<i class="fas fa-check"></i> Kettle <br />
-								<i class="fas fa-check"></i> Safety deposit box <br />
-								<i class="fas fa-check"></i> Hairdryer <br />
+              <hr class="block-divider block-divider--red" />
+              <p class="para-text">
+                <i class="fas fa-check"></i> Free fiber optic wi-fi <br />
+                <i class="fas fa-check"></i> 50" flat screen smart tv <br />
+                <i class="fas fa-check"></i> Sky, HBO and other satellite
+                channels <br />
+                <i class="fas fa-check"></i> Centralized temperature control
+                <br />
+                <i class="fas fa-check"></i> Ironing board and iron <br />
+                <i class="fas fa-check"></i> Fridge bar <br />
+                <i class="fas fa-check"></i> Kettle <br />
+                <i class="fas fa-check"></i> Safety deposit box <br />
+                <i class="fas fa-check"></i> Hairdryer <br />
               </p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="row">
-					<div class="col-12">
-						<h3 class="service-section-heading uppercase">
-							<i class="fas fa-street-view"></i><br />Outdoor
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="service-section-heading uppercase">
+                <i class="fas fa-street-view"></i><br />Outdoor
               </h3>
-							<hr class="block-divider block-divider--red" />
-							<p class="para-text">
-								<i class="fas fa-check"></i> Tourist guide on request <br />
-								<i class="fas fa-check"></i> Booking tickets for London events
-								<br />
-								<i class="fas fa-check"></i> Taxi service bookings <br />
-								<i class="fas fa-check"></i> Transfer from: airport, port, tube
-								and rail station <br />
+              <hr class="block-divider block-divider--red" />
+              <p class="para-text">
+                <i class="fas fa-check"></i> Tourist guide on request <br />
+                <i class="fas fa-check"></i> Booking tickets for London events
+                <br />
+                <i class="fas fa-check"></i> Taxi service bookings <br />
+                <i class="fas fa-check"></i> Transfer from: airport, port, tube
+                and rail station <br />
               </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!---------------------------------------Footer----------------------------------------->
-	<footer>
-		<section class="container-fluid">
-			<div class="row bg-color-footer">
-				<div class="col-md-7 section-column">
-					<div class="row">
-						<div class="col-12">
-							<h3 class="section-heading uppercase">
-								Location <i class="fas fa-map-marked"></i>
-							</h3>
-						</div>
-					</div>
-					<div id="map"></div>
-				</div>
-				<div class="col-md-5">
-					<div class="row">
-						<div class="col-12">
-							<h3 id="footerform" class="section-heading uppercase">
-								Check availability <i class="fas fa-user-plus"></i>
-							</h3>
-						</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------------------------Footer----------------------------------------->
+    <footer>
+      <section class="container-fluid">
+        <div class="row bg-color-footer">
+          <div class="col-md-7 section-column">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="section-heading uppercase">
+                  Location <i class="fas fa-map-marked"></i>
+                </h3>
+              </div>
+            </div>
+            <div id="map"></div>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-12">
+                <h3 id="footerform" class="section-heading uppercase">
+                  Check availability <i class="fas fa-user-plus"></i>
+                </h3>
+              </div>
 
-						<div class="container-fluid">
-							<div class="opaque-overlay">
-								<div class="col-12 col-md-6">
-									<form class="footer-form" action="#" method="post">
-										<p>
-											<label for="fname">First Name</label>
-											<input
+              <div class="container-fluid">
+                <div class="opaque-overlay">
+                  <div class="col-12 col-md-6">
+                    <form
+                      class="footer-form"
+                      onsubmit="return sendEmail(this);"
+                    >
+                      <p>
+                        <label for="fname">First Name</label>
+                        <input
                           class="text-input"
                           type="text"
                           id="Fname"
@@ -227,9 +264,9 @@
                           required
                         />
                       </p>
-											<p>
-												<label for="lname">Surname</label>
-												<input
+                      <p>
+                        <label for="lname">Surname</label>
+                        <input
                           class="text-input"
                           type="text"
                           id="Lname"
@@ -238,20 +275,20 @@
                           required
                         />
                       </p>
-												<p>
-													<label for="phone">Phone number</label>
-													<input
+                      <p>
+                        <label for="phone">Phone number</label>
+                        <input
                           class="text-input"
                           type="text"
                           id="Phone"
                           placeholder="Phone number"
-                          name="phone"
+                          name="phone_number"
                           required
                         />
                       </p>
-													<p>
-														<label for="email">Email Address</label>
-														<input
+                      <p>
+                        <label for="email">Email Address</label>
+                        <input
                           class="text-input"
                           type="email"
                           id="Email"
@@ -260,9 +297,9 @@
                           required
                         />
                       </p>
-														<p>
-															<label for="from">Arrival date</label>
-															<input
+                      <p>
+                        <label for="from">Arrival date</label>
+                        <input
                           type="text"
                           id="from"
                           placeholder="MM/DD/YYYY"
@@ -270,9 +307,9 @@
                           required
                         />
                       </p>
-															<p>
-																<label for="to">Departure date</label>
-																<input
+                      <p>
+                        <label for="to">Departure date</label>
+                        <input
                           type="text"
                           id="to"
                           placeholder="MM/DD/YYYY"
@@ -280,18 +317,34 @@
                           required
                         />
                       </p>
-																<p>
-																	<label for="rooms">Rooms</label>
-																	<select id="rooms" name="rooms">
-                          <option value="Room1">Spectacular Suite</option>
-                          <option value="Room2">Marvelous Suite</option>
-                          <option value="Room3">Fantastic Suite</option>
-                          <option value="Room4">Wonderful Suite</option>
+                      <p>
+                        <input
+                          type="button"
+                          value="Clear dates"
+                          class="clear--btn uppercase"
+                          id="clear-dates"
+                        />
+                      </p>
+                      <p>
+                        <label for="rooms">Rooms</label>
+                        <select id="rooms" name="rooms">
+                          <option value="Spectacular Suite"
+                            >Spectacular Suite</option
+                          >
+                          <option value="Marvelous Suite"
+                            >Marvelous Suite</option
+                          >
+                          <option value="Fantastic Suite"
+                            >Fantastic Suite</option
+                          >
+                          <option value="Wonderful Suite"
+                            >Wonderful Suite</option
+                          >
                         </select>
-																</p>
-																<p>
-																	<label for="guests">No. of Guests</label>
-																	<select id="guests" name="guests">
+                      </p>
+                      <p>
+                        <label for="guests">No. of Guests</label>
+                        <select id="guests" name="guests">
                           <option value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -301,79 +354,69 @@
                           <option value="7">7</option>
                           <option value="8">8</option>
                         </select>
-																</p>
-																<p class="full">
-																	<label for="newsletter">Accept terms</label>
-																	<input
-                          type="radio"
-                          id="Newsletter"
-                          name="correspondence"
-                          value="newsletter"
-                        />
                       </p>
-																	<p class="full">
-																		<input
+                      <p class="full">
+                        <input
                           type="submit"
                           class="btn--form uppercase"
                           value="Send!"
                         />
                       </p>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row bg-color-header">
-					<a href="index.html" class="col-md-2 logo"></a>
-					<div class="col-md-10 col-lg-6">
-						<div class="row bg-color-header">
-							<p class="footer-address">
-								ADDRESS: 13 Queensberry Pl Kensington, <br />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row bg-color-header">
+            <a href="index.html" class="col-md-2 logo"></a>
+            <div class="col-md-10 col-lg-6">
+              <div class="row bg-color-header">
+                <p class="footer-address">
+                  ADDRESS: 13 Queensberry Pl Kensington, <br />
                   London SW7 2DW
                 </p>
-						</div>
-					</div>
-					<div class="col-md-4 footer-social">
-						<ul class="list-inline footer-social-links">
-							<li class="list-inline-item menuitem">
-								<a href="https://www.facebook.com/" target="_blank">
-									<i class="fa fa-facebook" aria-hidden="true">
+              </div>
+            </div>
+            <div class="col-md-4 footer-social">
+              <ul class="list-inline footer-social-links">
+                <li class="list-inline-item menuitem">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true">
                       <span class="sr-only">Facebook</span>
                     </i>
-								</a>
-							</li>
-							<li class="list-inline-item menuitem">
-								<a href="https://twitter.com/" target="_blank">
-									<i class="fa fa-twitter" aria-hidden="true">
+                  </a>
+                </li>
+                <li class="list-inline-item menuitem">
+                  <a href="https://twitter.com/" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true">
                       <span class="sr-only">Twitter</span>
                     </i>
-								</a>
-							</li>
-							<li class="list-inline-item menuitem">
-								<a href="https://www.instagram.com/" target="_blank">
-									<i class="fa fa-instagram" aria-hidden="true">
+                  </a>
+                </li>
+                <li class="list-inline-item menuitem">
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true">
                       <span class="sr-only">Instagram</span>
                     </i>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-	</footer>
-	<script src="assets/js/hamburger.js"></script>
-	<script src="assets/js/maps.js"></script>
-	<script src="assets/js/datepicker.js"></script>
-	<script
-		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-	</script>
-	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWT00kA28dKj3AmPtfT6ERq0sXUNsOv2I&callback=initMap">
-	</script>
-</body>
-
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="assets/js/hamburger.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWT00kA28dKj3AmPtfT6ERq0sXUNsOv2I&callback=initMap"
+    ></script>
+  </body>
 </html>
