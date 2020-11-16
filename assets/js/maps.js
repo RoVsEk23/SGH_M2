@@ -2,8 +2,8 @@ function initMap() {
   // Styles a map in night mode.
   const myLatLng = { lat: 51.494805, lng: -0.177363 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 51.494805, lng: -0.177363 },
-    zoom: 14,
+    center: myLatLng,
+    zoom: 15,
     styles: [
       { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
       { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
@@ -85,9 +85,53 @@ function initMap() {
       },
     ],
   });
+  var iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
   new google.maps.Marker({
     position: myLatLng,
     map,
+    icon: iconBase + "homegardenbusiness_maps.png",
     title: "SELSEY HOUSE!",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.496729, lng: -0.176354 },
+    map,
+    icon: iconBase + "arts_maps.png",
+    title: "Natural History Museum! Cromwell Rd, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.494154, lng: -0.173965 },
+    map,
+    icon: iconBase + "subway_maps.png",
+    title: "SOUTH KENSINGTON STATION, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.494712, lng: -0.174313 },
+    map,
+    icon: iconBase + "bars_maps.png",
+    title: "Hoop & Toy, Thurloe Pl, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.496175, lng: -0.174463 },
+    map,
+    icon: iconBase + "ski_maps.png",
+    title: "Natural History Museum Ice Rink, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.495541, lng: -0.188207 },
+    map,
+    icon: iconBase + "grocery_maps.png",
+    title: "Sainsbury's, Cromwell Rd, Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.49439, lng: -0.182728 },
+    map,
+    icon: iconBase + "subway_maps.png",
+    title: "Gloucester Road Station, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.494052, lng: -0.169114 },
+    map,
+    icon: iconBase + "dining_maps.png",
+    title: "Restaurant Ours, Brompton Rd, South Kensington",
   });
 }
