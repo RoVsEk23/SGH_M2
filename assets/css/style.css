@@ -207,7 +207,7 @@ ul.breadcrumb li a {
 
 .house-image-gallery a {
   width: 100%;
-  height: 25rem;
+  height: 20rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,6 +286,7 @@ ul.breadcrumb li a {
   grid-area: img-8;
   background-image: url("../images/streetview2.jpg");
 }
+
 .img-9 {
   grid-area: img-9;
   background-image: url("../images/streetview1.jpg");
@@ -325,7 +326,7 @@ ul.breadcrumb li a {
 
 .rooms-image-gallery a {
   width: 100%;
-  height: 25rem;
+  height: 20rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -706,8 +707,47 @@ button:focus {
     width: 100%;
   }
 
+  .house-image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+    grid-template-areas:
+      "img-1 img-1 img-1"
+      "img-2 img-2 img-2"
+      "img-3 img-3 img-3"
+      "img-4 img-4 img-4"
+      "img-5 img-5 img-5"
+      "img-6 img-6 img-6"
+      "img-7 img-7 img-7"
+      "img-8 img-8 img-8"
+      "img-9 img-9 img-9";
+  }
+
+  .house-image-gallery a {
+    height: 15rem;
+  }
+
   .house-image-text {
-    display: none;
+    font-size: 15px;
+  }
+
+  .rooms-image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+    grid-template-areas:
+      "r-img-1 r-img-1 r-img-1"
+      "r-img-2 r-img-2 r-img-2"
+      "r-img-3 r-img-3 r-img-3"
+      "r-img-4 r-img-4 r-img-4"
+      "r-img-5 r-img-5 r-img-5"
+      "r-img-6 r-img-6 r-img-6";
+  }
+
+  .rooms-image-gallery a {
+    height: 15rem;
   }
 }
 
