@@ -308,4 +308,60 @@ function initMap() {
     icon: iconBase + "dining_maps.png",
     title: "Restaurant Ours, Brompton Rd, South Kensington",
   });
+
+  new google.maps.Marker({
+    position: { lat: 51.495209, lng: -0.173755 },
+    map,
+    icon: iconBase + "dining_maps.png",
+    title: "Big Fernand Thurloe Pl, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.495132, lng: -0.174023 },
+    map,
+    icon: iconBase + "dining_maps.png",
+    title: "Pierino Restaurant37 Thurloe Pl, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.49492, lng: -0.173893 },
+    map,
+    icon: iconBase + "dining_maps.png",
+    title: "ombo - Japanese Café Thurloe Pl, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.494786, lng: -0.174175 },
+    map,
+    icon: iconBase + "dining_maps.png",
+    title: "BROMPTON FOOD MARKET Thurloe Pl, South Kensington",
+  });
+
+  new google.maps.Marker({
+    position: { lat: 51.494824, lng: -0.183123 },
+    map,
+    icon: iconBase + "grocery_maps.png",
+    title: "Waitrose Gloucester Rd, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.494383, lng: -0.182258 },
+    map,
+    icon: iconBase + "grocery_maps.png",
+    title: "Tesco Express Gloucester Rd, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.493501, lng: -0.18323 },
+    map,
+    icon: iconBase + "bars_maps.png",
+    title: "Humphrey's Bar Harrington Gardens, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.49294, lng: -0.181299 },
+    map,
+    icon: iconBase + "bars_maps.png",
+    title: "The Hereford Arms, South Kensington",
+  });
+  new google.maps.Marker({
+    position: { lat: 51.491016, lng: -0.182543 },
+    map,
+    icon: iconBase + "bars_maps.png",
+    title: "Duke of Clarence Old Brompton Rd, South Kensington",
+  });
 }
