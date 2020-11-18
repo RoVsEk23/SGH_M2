@@ -249,47 +249,47 @@ ul.breadcrumb li a {
 
 .img-1 {
   grid-area: img-1;
-  background-image: url("../images/living1.jpg");
+  background-image: url("../images/living1_small.jpg");
 }
 
 .img-2 {
   grid-area: img-2;
-  background-image: url("../images/living2.jpg");
+  background-image: url("../images/living2_small.jpg");
 }
 
 .img-3 {
   grid-area: img-3;
-  background-image: url("../images/living3.jpg");
+  background-image: url("../images/living3_small.jpg");
 }
 
 .img-4 {
   grid-area: img-4;
-  background-image: url("../images/dining1.jpg");
+  background-image: url("../images/dining1_small.jpg");
 }
 
 .img-5 {
   grid-area: img-5;
-  background-image: url("../images/dining2.jpg");
+  background-image: url("../images/dining2_small.jpg");
 }
 
 .img-6 {
   grid-area: img-6;
-  background-image: url("../images/kitchen1.jpg");
+  background-image: url("../images/kitchen1_small.jpg");
 }
 
 .img-7 {
   grid-area: img-7;
-  background-image: url("../images/kitchen2.jpg");
+  background-image: url("../images/kitchen2_small.jpg");
 }
 
 .img-8 {
   grid-area: img-8;
-  background-image: url("../images/streetview2.jpg");
+  background-image: url("../images/streetview2_small.jpg");
 }
 
 .img-9 {
   grid-area: img-9;
-  background-image: url("../images/streetview1.jpg");
+  background-image: url("../images/streetview1_small.jpg");
 }
 
 .house-image-text {
@@ -368,32 +368,32 @@ ul.breadcrumb li a {
 
 .r-img-1 {
   grid-area: r-img-1;
-  background-image: url("../images/bedroom1.jpg");
+  background-image: url("../images/bedroom1_small.jpg");
 }
 
 .r-img-2 {
   grid-area: r-img-2;
-  background-image: url("../images/bedroom2.jpg");
+  background-image: url("../images/bedroom2_small.jpg");
 }
 
 .r-img-3 {
   grid-area: r-img-3;
-  background-image: url("../images/bedroom3.jpg");
+  background-image: url("../images/bedroom3_small.jpg");
 }
 
 .r-img-4 {
   grid-area: r-img-4;
-  background-image: url("../images/bedroom4.jpg");
+  background-image: url("../images/bedroom4_small.jpg");
 }
 
 .r-img-5 {
   grid-area: r-img-5;
-  background-image: url("../images/bathroom1.jpg");
+  background-image: url("../images/bathroom1_small.jpg");
 }
 
 .r-img-6 {
   grid-area: r-img-6;
-  background-image: url("../images/bathroom2.jpg");
+  background-image: url("../images/bathroom2_small.jpg");
 }
 
 .house-image-text {
@@ -404,6 +404,11 @@ ul.breadcrumb li a {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+
+.house-image-text b {
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 /*------------------------------------------------Contact form section */
@@ -728,6 +733,9 @@ button:focus {
     height: 15rem;
   }
 
+  .house-image-text b {
+    font-size: 20px;
+  }
   .house-image-text {
     font-size: 15px;
   }
