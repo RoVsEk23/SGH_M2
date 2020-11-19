@@ -1,9 +1,80 @@
-// This example displays a marker at the center of Australia.
-// When the user clicks the marker, an info window opens.
+var map;
+var InfoObj = [];
+var centerCords = { lat: 51.494805, lng: -0.177363 };
+
+var icons = {
+  house: {
+    icon: "assets/images/markericons/house.png",
+  },
+  pub: {
+    icon: "assets/images/markericons/beer.png",
+  },
+  restaurant: {
+    icon: "assets/images/markericons/cutlery.png",
+  },
+  grocery: {
+    icon: "assets/images/markericons/grocery.png",
+  },
+  subway: {
+    icon: "assets/images/markericons/underground.png",
+  },
+  museum: {
+    icon: "assets/images/markericons/museum.png",
+  },
+};
+
+var markersOnMap = [
+  {
+    placeName: "Selsey House",
+    LatLng: [{ lat: 51.494805, lng: -0.177363 }],
+    type: "house",
+  },
+  {
+    placeName: "Natural History Museum",
+    LatLng: [{ lat: 51.496729, lng: -0.176354 }],
+    type: "museum",
+  },
+  {
+    placeName: "SOUTH KENSINGTON STATION",
+    LatLng: [{ lat: 51.494154, lng: -0.173965 }],
+    type: "subway",
+  },
+];
+
+window.onload = function () {
+  initMap();
+};
+
+function addMarkerInfo() {
+  for (var i = 0; i < markersOnMap.length; i++) {
+    var contentString = "<h5>" + markersOnMap[i].placeName + "</h5>";
+    const marker = new google.maps.Marker({
+      position: markersOnMap[i].LatLng[0],
+      icon: icons[markersOnMap[i].type].icon,
+      map: map,
+    });
+    const infowindow = new google.maps.InfoWindow({
+      content: contentString,
+    });
+    marker.addListener("click", () => {
+      closeOtherInfo();
+      infowindow.open(marker.get("map"), marker);
+      InfoObj[0] = infowindow;
+    });
+  }
+}
+
+function closeOtherInfo() {
+  if (InfoObj.length > 0) {
+    InfoObj[0].set("marker", null);
+    InfoObj[0].close();
+    InfoObj[0].length = 0;
+  }
+}
+
 function initMap() {
-  const home = { lat: 51.494805, lng: -0.177363 };
-  var iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
-  const map = new google.maps.Map(document.getElementById("map"), {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: centerCords,
     zoom: 15,
     styles: [
       { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
@@ -121,29 +192,6 @@ function initMap() {
         ],
       },
     ],
-    center: home,
   });
-
-  const contentString =
-    '<div id="content">' +
-    '<div id="siteNotice">' +
-    "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Selsey House</h1>' +
-    '<div id="bodyContent">' +
-    "<p>Welcome to Selsey House. We are centrally located in South Kensington with lots of pubs, restaurants, shopping and other tourist attractions. We hope you enjoy your stay with us!</p>" +
-    "</div>" +
-    "</div>";
-  const infowindow = new google.maps.InfoWindow({
-    content: contentString,
-  });
-  const marker = new google.maps.Marker({
-    position: home,
-    map,
-
-    icon: iconBase + "homegardenbusiness_maps.png",
-    title: "SELSEY HOUSE!",
-  });
-  marker.addListener("click", () => {
-    infowindow.open(map, marker);
-  });
+  addMarkerInfo();
 }
