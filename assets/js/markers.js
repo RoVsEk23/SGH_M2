@@ -1,7 +1,7 @@
 // This example displays a marker at the center of Australia.
 // When the user clicks the marker, an info window opens.
 function initMap() {
-  const uluru = { lat: 51.494805, lng: -0.177363 };
+  const home = { lat: 51.494805, lng: -0.177363 };
   var iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15,
@@ -121,7 +121,7 @@ function initMap() {
         ],
       },
     ],
-    center: uluru,
+    center: home,
   });
 
   const contentString =
@@ -130,14 +130,14 @@ function initMap() {
     "</div>" +
     '<h1 id="firstHeading" class="firstHeading">Selsey House</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Selsey House</b>, Welcome to Selsey House. We are centrally located with lots of pubs, restaurant, shopping and other tourist attractions.</p>" +
+    "<p>Welcome to Selsey House. We are centrally located in South Kensington with lots of pubs, restaurants, shopping and other tourist attractions. We hope you enjoy your stay with us!</p>" +
     "</div>" +
     "</div>";
   const infowindow = new google.maps.InfoWindow({
     content: contentString,
   });
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: home,
     map,
 
     icon: iconBase + "homegardenbusiness_maps.png",
