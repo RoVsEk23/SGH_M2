@@ -1,8 +1,150 @@
+var map;
+var InfoObj = [];
+var centerCords = { lat: 51.494805, lng: -0.177363 };
+
+var icons = {
+  house: {
+    icon: "assets/images/markericons/house.png",
+  },
+  pub: {
+    icon: "assets/images/markericons/beer.png",
+  },
+  restaurant: {
+    icon: "assets/images/markericons/cutlery.png",
+  },
+  grocery: {
+    icon: "assets/images/markericons/grocery.png",
+  },
+  subway: {
+    icon: "assets/images/markericons/underground.png",
+  },
+  museum: {
+    icon: "assets/images/markericons/museum.png",
+  },
+};
+
+var markersOnMap = [
+  {
+    placeName: "Selsey House",
+    LatLng: [{ lat: 51.494805, lng: -0.177363 }],
+    type: "house",
+  },
+  {
+    placeName: "Natural History Museum",
+    LatLng: [{ lat: 51.496729, lng: -0.176354 }],
+    type: "museum",
+  },
+  {
+    placeName: "South Kensington Station",
+    LatLng: [{ lat: 51.494154, lng: -0.173965 }],
+    type: "subway",
+  },
+  {
+    placeName: "Hoop & Toy, Thurloe Pl, South Kensington",
+    LatLng: [{ lat: 51.494712, lng: -0.174313 }],
+    type: "pub",
+  },
+  {
+    placeName: "Natural History Museum Ice Rink, South Kensington",
+    LatLng: [{ lat: 51.496175, lng: -0.174463 }],
+    type: "museum",
+  },
+  {
+    placeName: "Sainsbury's, Cromwell Rd, Kensington",
+    LatLng: [{ lat: 51.495541, lng: -0.188207 }],
+    type: "grocery",
+  },
+  {
+    placeName: "Gloucester Road Station, South Kensington",
+    LatLng: [{ lat: 51.49439, lng: -0.182728 }],
+    type: "subway",
+  },
+  {
+    placeName: "Restaurant Ours, Brompton Rd, South Kensington",
+    LatLng: [{ lat: 51.494052, lng: -0.169114 }],
+    type: "restaurant",
+  },
+  {
+    placeName: "Big Fernand Thurloe Pl, South Kensington",
+    LatLng: [{ lat: 51.495209, lng: -0.173755 }],
+    type: "restaurant",
+  },
+  {
+    placeName: "Pierino Restaurant 37 Thurloe Pl, South Kensington",
+    LatLng: [{ lat: 51.495132, lng: -0.174023 }],
+    type: "restaurant",
+  },
+  {
+    placeName: "ombo - Japanese Café Thurloe Pl, South Kensington",
+    LatLng: [{ lat: 51.49492, lng: -0.173893 }],
+    type: "restaurant",
+  },
+  {
+    placeName: "Brompton Food Market Thurloe Pl, South Kensington",
+    LatLng: [{ lat: 51.494786, lng: -0.174175 }],
+    type: "restaurant",
+  },
+  {
+    placeName: "Waitrose Gloucester Rd, South Kensington",
+    LatLng: [{ lat: 51.494824, lng: -0.183123 }],
+    type: "grocery",
+  },
+  {
+    placeName: "Tesco Express Gloucester Rd, South Kensington",
+    LatLng: [{ lat: 51.494383, lng: -0.182258 }],
+    type: "grocery",
+  },
+  {
+    placeName: "Humphrey's Bar Harrington Gardens, South Kensington",
+    LatLng: [{ lat: 51.493501, lng: -0.18323 }],
+    type: "pub",
+  },
+  {
+    placeName: "The Hereford Arms, South Kensington",
+    LatLng: [{ lat: 51.49294, lng: -0.181299 }],
+    type: "pub",
+  },
+  {
+    placeName: "Duke of Clarence Old Brompton Rd, South Kensington",
+    LatLng: [{ lat: 51.491016, lng: -0.182543 }],
+    type: "pub",
+  },
+];
+
+window.onload = function () {
+  initMap();
+};
+
+function addMarkerInfo() {
+  for (var i = 0; i < markersOnMap.length; i++) {
+    var contentString = "<h5>" + markersOnMap[i].placeName + "</h5>";
+    const marker = new google.maps.Marker({
+      position: markersOnMap[i].LatLng[0],
+      icon: icons[markersOnMap[i].type].icon,
+      map: map,
+    });
+    const infowindow = new google.maps.InfoWindow({
+      content: contentString,
+    });
+    marker.addListener("click", () => {
+      closeOtherInfo();
+      infowindow.open(marker.get("map"), marker);
+      InfoObj[0] = infowindow;
+    });
+  }
+}
+
+function closeOtherInfo() {
+  if (InfoObj.length > 0) {
+    InfoObj[0].set("marker", null);
+    InfoObj[0].close();
+    InfoObj[0].length = 0;
+  }
+}
+
 function initMap() {
-  // Style the map in night mode.
-  const myLatLng = { lat: 51.494805, lng: -0.177363 };
-  const map = new google.maps.Map(document.getElementById("map"), {
-    center: myLatLng,
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: centerCords,
     zoom: 15,
     styles: [
       { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
@@ -121,109 +263,5 @@ function initMap() {
       },
     ],
   });
-  var iconBase = "https://maps.google.com/mapfiles/kml/shapes/";
-  new google.maps.Marker({
-    position: myLatLng,
-    map,
-    icon: iconBase + "homegardenbusiness_maps.png",
-    title: "SELSEY HOUSE!",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.496729, lng: -0.176354 },
-    map,
-    icon: iconBase + "arts_maps.png",
-    title: "Natural History Museum! Cromwell Rd, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.494154, lng: -0.173965 },
-    map,
-    icon: iconBase + "subway_maps.png",
-    title: "SOUTH KENSINGTON STATION, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.494712, lng: -0.174313 },
-    map,
-    icon: iconBase + "bars_maps.png",
-    title: "Hoop & Toy, Thurloe Pl, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.496175, lng: -0.174463 },
-    map,
-    icon: iconBase + "ski_maps.png",
-    title: "Natural History Museum Ice Rink, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.495541, lng: -0.188207 },
-    map,
-    icon: iconBase + "grocery_maps.png",
-    title: "Sainsbury's, Cromwell Rd, Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.49439, lng: -0.182728 },
-    map,
-    icon: iconBase + "subway_maps.png",
-    title: "Gloucester Road Station, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.494052, lng: -0.169114 },
-    map,
-    icon: iconBase + "dining_maps.png",
-    title: "Restaurant Ours, Brompton Rd, South Kensington",
-  });
-
-  new google.maps.Marker({
-    position: { lat: 51.495209, lng: -0.173755 },
-    map,
-    icon: iconBase + "dining_maps.png",
-    title: "Big Fernand Thurloe Pl, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.495132, lng: -0.174023 },
-    map,
-    icon: iconBase + "dining_maps.png",
-    title: "Pierino Restaurant37 Thurloe Pl, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.49492, lng: -0.173893 },
-    map,
-    icon: iconBase + "dining_maps.png",
-    title: "ombo - Japanese Café Thurloe Pl, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.494786, lng: -0.174175 },
-    map,
-    icon: iconBase + "dining_maps.png",
-    title: "BROMPTON FOOD MARKET Thurloe Pl, South Kensington",
-  });
-
-  new google.maps.Marker({
-    position: { lat: 51.494824, lng: -0.183123 },
-    map,
-    icon: iconBase + "grocery_maps.png",
-    title: "Waitrose Gloucester Rd, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.494383, lng: -0.182258 },
-    map,
-    icon: iconBase + "grocery_maps.png",
-    title: "Tesco Express Gloucester Rd, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.493501, lng: -0.18323 },
-    map,
-    icon: iconBase + "bars_maps.png",
-    title: "Humphrey's Bar Harrington Gardens, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.49294, lng: -0.181299 },
-    map,
-    icon: iconBase + "bars_maps.png",
-    title: "The Hereford Arms, South Kensington",
-  });
-  new google.maps.Marker({
-    position: { lat: 51.491016, lng: -0.182543 },
-    map,
-    icon: iconBase + "bars_maps.png",
-    title: "Duke of Clarence Old Brompton Rd, South Kensington",
-  });
+  addMarkerInfo();
 }
