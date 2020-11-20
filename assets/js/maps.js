@@ -35,13 +35,23 @@ var markersOnMap = [
     type: "museum",
   },
   {
+    placeName: "Science Museum",
+    LatLng: [{ lat: 51.497856, lng: -0.174534 }],
+    type: "museum",
+  },
+  {
     placeName: "South Kensington Station",
     LatLng: [{ lat: 51.494154, lng: -0.173965 }],
     type: "subway",
   },
   {
-    placeName: "Hoop & Toy, Thurloe Pl, South Kensington",
-    LatLng: [{ lat: 51.494712, lng: -0.174313 }],
+    placeName: "Sloane Square Station",
+    LatLng: [{ lat: 51.492431, lng: -0.156389 }],
+    type: "subway",
+  },
+  {
+    placeName: "Glamis Bar South Kensington",
+    LatLng: [{ lat: 51.495904, lng: -0.181341 }],
     type: "pub",
   },
   {
@@ -67,16 +77,6 @@ var markersOnMap = [
   {
     placeName: "Big Fernand Thurloe Pl, South Kensington",
     LatLng: [{ lat: 51.495209, lng: -0.173755 }],
-    type: "restaurant",
-  },
-  {
-    placeName: "Pierino Restaurant 37 Thurloe Pl, South Kensington",
-    LatLng: [{ lat: 51.495132, lng: -0.174023 }],
-    type: "restaurant",
-  },
-  {
-    placeName: "ombo - Japanese Café Thurloe Pl, South Kensington",
-    LatLng: [{ lat: 51.49492, lng: -0.173893 }],
     type: "restaurant",
   },
   {
@@ -108,6 +108,11 @@ var markersOnMap = [
     placeName: "Duke of Clarence Old Brompton Rd, South Kensington",
     LatLng: [{ lat: 51.491016, lng: -0.182543 }],
     type: "pub",
+  },
+  {
+    placeName: "Eli’s Restaurant - South Kensington",
+    LatLng: [{ lat: 51.493563, lng: -0.176037 }],
+    type: "restaurant",
   },
 ];
 
