@@ -46,7 +46,7 @@ var markersOnMap = [
   },
   {
     placeName: "Sloane Square Station",
-    LatLng: [{ lat: 51.492431, lng: -0.156389 }],
+    LatLng: [{ lat: 51.493219, lng: -0.168987 }],
     type: "subway",
   },
   {
@@ -55,8 +55,14 @@ var markersOnMap = [
     type: "pub",
   },
   {
-    placeName: "Natural History Museum Ice Rink, South Kensington",
-    LatLng: [{ lat: 51.496175, lng: -0.174463 }],
+    placeName: "British Art Museum",
+    LatLng: [{ lat: 51.4930471, lng: -0.170851 }],
+    type: "museum",
+  },
+
+  {
+    placeName: "Royal Albert Hall",
+    LatLng: [{ lat: 51.496788, lng: -0.1693656 }],
     type: "museum",
   },
   {
@@ -69,9 +75,21 @@ var markersOnMap = [
     LatLng: [{ lat: 51.49439, lng: -0.182728 }],
     type: "subway",
   },
+
+  {
+    placeName: "Cromwell Road Station",
+    LatLng: [{ lat: 51.495163, lng: -0.191343 }],
+    type: "subway",
+  },
   {
     placeName: "Restaurant Ours, Brompton Rd, South Kensington",
     LatLng: [{ lat: 51.494052, lng: -0.169114 }],
+    type: "restaurant",
+  },
+
+  {
+    placeName: "Yo Chung Vietnamese Restaurant",
+    LatLng: [{ lat: 51.49504, lng: -0.180146 }],
     type: "restaurant",
   },
   {
@@ -81,17 +99,17 @@ var markersOnMap = [
   },
   {
     placeName: "Brompton Food Market Thurloe Pl, South Kensington",
-    LatLng: [{ lat: 51.494786, lng: -0.174175 }],
+    LatLng: [{ lat: 51.492429, lng: -0.1834594 }],
     type: "restaurant",
   },
   {
     placeName: "Waitrose Gloucester Rd, South Kensington",
-    LatLng: [{ lat: 51.494824, lng: -0.183123 }],
+    LatLng: [{ lat: 51.492337, lng: -0.178064 }],
     type: "grocery",
   },
   {
     placeName: "Tesco Express Gloucester Rd, South Kensington",
-    LatLng: [{ lat: 51.494383, lng: -0.182258 }],
+    LatLng: [{ lat: 51.496669, lng: -0.17939 }],
     type: "grocery",
   },
   {
