@@ -433,14 +433,14 @@ ul.breadcrumb li a {
 
 .contact-address-text {
   padding-top: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: 300;
   text-align: center;
   color: #fafafa;
 }
 
 .contact-directions-text {
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo", sans-serif;
   font-weight: 200;
   text-align: center;
   color: #fafafa;
@@ -546,6 +546,28 @@ button:focus {
 }
 
 /*------------------------------------------------Footer */
+
+.location-box-text {
+  font-family: "exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 15px;
+}
+
+.location-box {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 150px;
+  background-color: #3e362d;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
 .section-column {
   display: table-cell;
   padding: 0 30px 30px;
@@ -762,6 +784,18 @@ button:focus {
 @media screen and (max-width: 1280px) {
   .currency input {
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .location-box {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .location-box-text {
+    font-size: 12px;
   }
 }
 
