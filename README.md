@@ -19,7 +19,7 @@ The site consists of the following pages
 The desktop version of the website has a header and footer that is common to every page. The header has a logo with the menu, a check availability button and social media icons.
 On the mobile version, the header has just the logo and a dropdown menu from the burger icon.
 
-<img src="assets/images/screenshots/DesktopHeader.jpg" width=300> <img src="assets/images/screenshots/MobileHeader.jpg" width=300>
+<img src="assets/images/screenshots/desktopheader.jpg" width=300> <img src="assets/images/screenshots/mobileheader.jpg" width=300>
 
 The desktop and mobile version of the footer have the same components. a box with content related to the interactive map and a check availability form. This is followed by the logo, address and social media icons.
 
