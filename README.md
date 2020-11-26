@@ -1,4 +1,4 @@
-Project Name: Selsey House – Official Website
+PROJECT NAME: SELSEY HOUSE – OFFICIAL WEBSITE
 
 This is the second Milestone Project undertaken as part of the course for the Full stack developer certification from Code Institute. The requirement is to build an interactive front-end site that would respond to the users' actions, allowing them to actively engage with data and alter the way the site displays the information to achieve their preferred goals. 
 
@@ -10,18 +10,24 @@ This is an extremely competitive business where users have hundreds of options t
 
 The principle purpose of the website is to solicit bookings from business and casual travellers who are looking for accommodation in Kensington, central London. The intention is to interact with customers, providing all the information they would potentially need to decide and make a booking.
 
-Wireframes - 
+WIREFRAMES - 
+
 1.	Mobile Wireframe (Github link) - https://github.com/RoVsEk23/SGH_M2/blob/master/assets/wireframes/Mobile%20Wireframe%20MP2.pdf
 2.	Desktop wireframe (Github link) - https://github.com/RoVsEk23/SGH_M2/blob/master/assets/wireframes/Desktop%20Wireframe%20MP2.pdf
 
-Layout - 
+TECHNOLOGY -
+
+CSS, HTML, Bootstrap,JavaScript, jQuery, LightBox, GoogleMaps API, Exchange Rates API, EmailJS, Font Awesome.
+
+LAYOUT - 
+
 The site consists of the following pages
 1.	Home
 2.	Rooms
 3.	Services
 4.	Contact Us 
 
-Header and Footer – 
+HEADER AND FOOTER – 
 
 The desktop version of the website has a header and footer that is common to every page. The header has a logo with the menu, a check availability button and social media icons.
 
@@ -56,4 +62,7 @@ The services page is a compilation of content that covers the services provided.
 
 CONTACT US
 
-The contact us page 
+The contact us page has a general enquiry form, a text box with address and directions and a currency calculator.
+
+<img src="assets/images/screenshots/DesktopC1.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileC1.JPG" width=200> <img src="assets/images/screenshots/MobileC2.JPG" width=200> <img src="assets/images/screenshots/MobileC3.JPG" width=200> 
+
