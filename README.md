@@ -40,29 +40,60 @@ On the mobile version, the header has just the logo and a dropdown menu from the
 The desktop and mobile version of the footer have the same components. a box with content related to the interactive map and a check availability form. This is followed by the logo, address and social media icons.
 <img src="assets/images/screenshots/DesktopFooter.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileFooter1.JPG" width=200> <img src="assets/images/screenshots/MobileFooter2.JPG" width=200> <img src="assets/images/screenshots/MobileFooter3.JPG" width=200>
 
-HOME
+PAGE 1 - HOME
 
 The homepage consists of 9 images that display many parts of the house, namely living and dining rooms as well as a view of the streets outside. We have some text on few of the images. 
 
 <img src="assets/images/screenshots/DesktopH1.JPG" height = 300 width=800> <img src="assets/images/screenshots/DesktopH2.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileH1.JPG" width=200> <img src="assets/images/screenshots/MobileH2.JPG" width=200> <img src="assets/images/screenshots/MobileH3.JPG" width=200> <img src="assets/images/screenshots/MobileH4.JPG" width=200>
 
 
-ROOMS
+PAGE 2 - ROOMS
 
 The rooms page displays images of the 4 different bedrooms available and 2 bathrooms. The images display text related to names and pricing.
 
 <img src="assets/images/screenshots/DesktopR1.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileR1.JPG" width=200> <img src="assets/images/screenshots/MobileR2.JPG" width=200> <img src="assets/images/screenshots/MobileR3.JPG" width=200> 
 
-SERVICES
+PAGE 3 - SERVICES
 
 The services page is a compilation of content that covers the services provided.
 
 <img src="assets/images/screenshots/DesktopS1.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileS1.JPG" width=200> <img src="assets/images/screenshots/MobileS2.JPG" width=200> <img src="assets/images/screenshots/MobileS3.JPG" width=200> 
 
 
-CONTACT US
+PAGE 4 - CONTACT US
 
 The contact us page has a general enquiry form, a text box with address and directions and a currency calculator.
 
 <img src="assets/images/screenshots/DesktopC1.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileC1.JPG" width=200> <img src="assets/images/screenshots/MobileC2.JPG" width=200> <img src="assets/images/screenshots/MobileC3.JPG" width=200> 
 
+INTERACTIVE FEATURES - 
+
+1. FORMS
+
+We have two types of forms on the site; a check availability form on the footer of every page and a general enquiry form on the contact page. There is a check availability button on the header of every page that links down to the check availability form on the footer. 
+
+Our intention is to provide the user with as much of a chance to fill out the check availabilty form without having to navigate towards it. (Keeping the visibility as high as possible.)
+
+<img src="assets/images/screenshots/FooterForm-Clear.JPG" width=200> 
+
+The general enquiry form on the contact page is to increase interactivity with the user so they can send a message, or provide a feedback or a suggestion. 
+
+<img src="assets/images/screenshots/ContactForm-Clear.JPG" width=200> 
+
+2. MAP
+
+We have an interactive map on the footer of every page with some text that explains to the user how to use the map. Our intention is to display the central location of the property and the various amenities and attractions.
+
+<img src="assets/images/screenshots/DesktopFooter.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileFooter1.JPG" width=200>   
+
+3. GALLERY 
+
+I think that visual imagery is the main deciding factor that influences decision making and leads to a booking. We have a gallery feature on the home and rooms page that allows the user to expand and browse all the images.
+
+<img src="assets/images/screenshots/DesktopGallery.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileGallery.JPG" width=200>   
+
+4. CURRENCY CALCULATOR
+
+As we expect most of the users to be international travellers, we think its important to add a currency convertor feature so the user can convery the prices displayed, budget etc.
+
+<img src="assets/images/screenshots/CurrencyCalculator.JPG" width=200> <img src="assets/images/screenshots/CurrencyCalculator1.JPG" width=200>   
