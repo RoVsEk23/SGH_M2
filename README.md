@@ -151,7 +151,7 @@ All info windows on the map display text related to the destination.
 All social media buttons link to pages on a new tab.
 Check availability form vadidated.
 
-<img src="assets/images/screenshots/ContactForm-DateValidation.JPG" height = 200 width=500> <img src="assets/images/screenshots/ContactForm-PhoneValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-EmailValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-Entry" width=250> <img src="assets/images/screenshots/ContactForm-Console" height = 100 width=600> <img src="assets/images/screenshots/ContactForm-Email.JPG" height = 150 width=500>
+<img src="assets/images/screenshots/ContactForm-DateValidation.JPG" height = 200 width=500> <img src="assets/images/screenshots/ContactForm-PhoneValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-EmailValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-Entry.JPG" width=200> <img src="assets/images/screenshots/ContactForm-Console.JPG" height = 50 width=500> <img src="assets/images/screenshots/ContactForm-Email.JPG" height = 150 width=500>
 
 A. MAP - 
 
