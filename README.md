@@ -149,26 +149,24 @@ FOOTER -
 
 All info windows on the map display text related to the destination.
 All social media buttons link to pages on a new tab.
-Check availability form vadidated.
+Check availability form validated.
 
-<img src="assets/images/screenshots/ContactForm-DateValidation.JPG" height = 200 width=500> <img src="assets/images/screenshots/ContactForm-PhoneValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-EmailValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-Entry.JPG" width=200> <img src="assets/images/screenshots/ContactForm-Console.JPG" height = 50 width=500> <img src="assets/images/screenshots/ContactForm-Email.JPG" height = 150 width=500>
+<img src="assets/images/screenshots/FooterForm-Clear.JPG" width=250> <img src="assets/images/screenshots/ContactForm-DateValidation.JPG" height = 200 width=500> <img src="assets/images/screenshots/FooterForm-Data.JPG" width=250> <img src="assets/images/screenshots/FooterForm-Entry.JPG" width=250> <img src="assets/images/screenshots/FooterForm-Console.JPG" height = 50 width=600> <img src="assets/images/screenshots/FooterForm-Email.JPG" height = 150 width=700>
 
-A. MAP - 
+Known bugs - Phone field accepts character apart from just numbers.
 
-B. CHECK AVAILABILITY FORM - 
+HOME and ROOMS - 
 
-HOME - 
+Gallery view works on both pages.
 
-ROOMS - 
-
-SERVICES - 
+<img src="assets/images/screenshots/DesktopGallery.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileGallery.JPG" width=200>   
 
 CONTACT - 
 
-A. GENERAL ENQUIRY FORM - 
+General enquiry form validated.
 
-B. CURRENCY CALCULATOR - 
+<img src="assets/images/screenshots/ContactForm-PhoneValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-EmailValidation.JPG" width=300> <img src="assets/images/screenshots/ContactForm-Entry.JPG" width=250> <img src="assets/images/screenshots/ContactForm-Console.JPG" height = 50 width=600> <img src="assets/images/screenshots/ContactForm-Email.JPG" height = 150 width=700>
 
+Currency calculator tested.
 
-
-
+<img src="assets/images/screenshots/CurrencyCalculator.JPG" width=250> <img src="assets/images/screenshots/CurrencyCalculator1.JPG" width=250>   
