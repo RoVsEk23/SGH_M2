@@ -96,4 +96,79 @@ I think that visual imagery is the main deciding factor that influences decision
 
 As we expect most of the users to be international travellers, we think its important to add a currency convertor feature so the user can convery the prices displayed, budget etc.
 
-<img src="assets/images/screenshots/CurrencyCalculator.JPG" width=200> <img src="assets/images/screenshots/CurrencyCalculator1.JPG" width=200>   
+<img src="assets/images/screenshots/CurrencyCalculator.JPG" width=250> <img src="assets/images/screenshots/CurrencyCalculator1.JPG" width=250>   
+
+
+USER STORIES - 
+
+A. As a business traveller I am looking for a bed and breakfast with good travel links into central London for my client visits.
+
+ACCEPTANCE CRITERIA - 
+
+1. A wholly interactive map on the footer of every page allows the user to check distances to various train stations.
+2. Services listed service page cater to business travellers.
+3. Ability to contact the management through the general enquiry form to check for any additional requests.
+4. Ability to check availability online.
+
+B. As an international traveller on holiday, I am looking for a bed and breakfast within budget in London with good amenities and attractions.
+
+ACCEPTANCE CRITERIA - 
+
+1. The interactive map allows the user to check ease of access to various amenities, tourist attractions and the central location of the property.
+2. The currency converter on the contacts page can be used to check budgets against the prices listed for various rooms.
+3. Ability to check availability online.
+
+C. As a frequent traveller, I am looking for a luxurious bed and breakfast which provides lots of additional services.
+
+ACCEPTANCE CRITERIA - 
+
+1. The home and rooms pages display the pictures as a gallery so the user can have a clearer view of the various rooms and features.
+2. Detailed list of services provided on the services page.
+3. Ability to contact the management through the general enquiry form to check for any additional requests.
+4. Ability to check availability online.
+
+
+TESTING 
+
+W3C Markup Validator and W3C CSS Validator Services were used to validate every page and check for syntax errors.
+
+BROWSER - 
+
+The site was tested on Google Chrome, Firefox and Microsoft Edge.
+
+RESPONSIVE - 
+
+The website was viewed on a variety of devices such ranging from desktop, tablet, small, medium and large screen mobile devices.
+
+HEADER - 
+
+Check availability button links to check availability form on the footer for all pages.
+All social media buttons link to pages on a new tab.
+
+FOOTER -
+
+All info windows on the map display text related to the destination.
+All social media buttons link to pages on a new tab.
+Check availability form vadidated.
+
+<img src="assets/images/screenshots/ContactForm-DateValidation.JPG" height = 200 width=500> <img src="assets/images/screenshots/ContactForm-PhoneValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-EmailValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-Entry" width=250> <img src="assets/images/screenshots/ContactForm-Console" height = 100 width=600> <img src="assets/images/screenshots/ContactForm-Email.JPG" height = 150 width=500>
+
+A. MAP - 
+
+B. CHECK AVAILABILITY FORM - 
+
+HOME - 
+
+ROOMS - 
+
+SERVICES - 
+
+CONTACT - 
+
+A. GENERAL ENQUIRY FORM - 
+
+B. CURRENCY CALCULATOR - 
+
+
+
+
