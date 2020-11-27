@@ -155,6 +155,8 @@ Check availability form validated.
 
 Known bugs - Phone field accepts character apart from just numbers.
 
+<img src="assets/images/screenshots/ContactForm-PhoneValidation.JPG" width=250> 
+
 HOME and ROOMS - 
 
 Gallery view works on both pages.
@@ -165,7 +167,7 @@ CONTACT -
 
 General enquiry form validated.
 
-<img src="assets/images/screenshots/ContactForm-PhoneValidation.JPG" width=250> <img src="assets/images/screenshots/ContactForm-EmailValidation.JPG" width=300> <img src="assets/images/screenshots/ContactForm-Entry.JPG" width=250> <img src="assets/images/screenshots/ContactForm-Console.JPG" height = 50 width=600> <img src="assets/images/screenshots/ContactForm-Email.JPG" height = 150 width=700>
+<img src="assets/images/screenshots/ContactForm-EmailValidation.JPG" width=300> <img src="assets/images/screenshots/ContactForm-Entry.JPG" width=250> <img src="assets/images/screenshots/ContactForm-Console.JPG" height = 50 width=600> <img src="assets/images/screenshots/ContactForm-Email.JPG" height = 150 width=700>
 
 Currency calculator tested.
 
