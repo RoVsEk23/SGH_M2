@@ -172,3 +172,20 @@ General enquiry form validated.
 Currency calculator tested.
 
 <img src="assets/images/screenshots/CurrencyCalculator.JPG" width=250> <img src="assets/images/screenshots/CurrencyCalculator1.JPG" width=250>   
+
+
+DEPLOYMENT –
+The project was deployed to GitHub pages by the following steps
+
+Login to GitHub and select the project repository.
+
+Click on settings on the project menu.
+
+Locate the GitHub pages section.
+
+Under source, select master branch from the dropdown menu keeping folder as root and then save.
+
+The GitHub page source is then saved.
+
+Refresh the page and the site link is displayed under GitHub pages.
+
