@@ -175,6 +175,7 @@ Currency calculator tested.
 
 
 DEPLOYMENT –
+
 The project was deployed to GitHub pages by the following steps
 
 Login to GitHub and select the project repository.
@@ -188,4 +189,6 @@ Under source, select master branch from the dropdown menu keeping folder as root
 The GitHub page source is then saved.
 
 Refresh the page and the site link is displayed under GitHub pages.
+
+https://rovsek23.github.io/SGH_M2/
 
