@@ -116,22 +116,22 @@ var markersOnMap = [
     type: "grocery",
   },
   {
-    placeName: "Humphrey's Bar Harrington Gardens, South Kensington",
+    placeName: "<b>Humphrey's Bar</b> <br> French Bar and Restaurant",
     LatLng: [{ lat: 51.493501, lng: -0.18323 }],
     type: "pub",
   },
   {
-    placeName: "The Hereford Arms, South Kensington",
+    placeName: "<b>The Blue Moon</b> <br> Modern English Pub",
     LatLng: [{ lat: 51.49294, lng: -0.181299 }],
     type: "pub",
   },
   {
-    placeName: "Duke of Clarence Old Brompton Rd, South Kensington",
+    placeName: "<b>Duke of Clarence</b> <br> Traditional English Pub",
     LatLng: [{ lat: 51.491016, lng: -0.182543 }],
     type: "pub",
   },
   {
-    placeName: "Eli’s Restaurant - South Kensington",
+    placeName: "<b>Le Blanc</b> <br> Classic French Restaurant",
     LatLng: [{ lat: 51.493563, lng: -0.176037 }],
     type: "restaurant",
   },
