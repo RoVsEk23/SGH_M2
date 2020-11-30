@@ -25,90 +25,93 @@ var icons = {
 
 var markersOnMap = [
   {
-    placeName: "Selsey House",
+    placeName:
+      "<b>SELSEY HOUSE</b> <br> 13 Queensberry Pl Kensington <br> London SW7 2DW",
     LatLng: [{ lat: 51.494805, lng: -0.177363 }],
     type: "house",
   },
   {
-    placeName: "Natural History Museum",
+    placeName:
+      "<b>Natural History Museum</b> <br> Museum: Major Tourist attraction",
     LatLng: [{ lat: 51.496729, lng: -0.176354 }],
     type: "museum",
   },
   {
-    placeName: "Science Museum",
+    placeName: "<b>Science Museum</b> <br> Museum: Major Tourist attraction",
     LatLng: [{ lat: 51.497856, lng: -0.174534 }],
     type: "museum",
   },
   {
-    placeName: "South Kensington Station",
+    placeName: "<b>South Kensington Station</b> <br> Underground train station",
     LatLng: [{ lat: 51.494154, lng: -0.173965 }],
     type: "subway",
   },
   {
-    placeName: "Sloane Square Station",
+    placeName: "<b>Sloane Square Station</b> <br> Underground train station",
     LatLng: [{ lat: 51.493219, lng: -0.168987 }],
     type: "subway",
   },
   {
-    placeName: "Glamis Bar South Kensington",
+    placeName: "<b>The Queens Head</b> <br> Traditional English Pub",
     LatLng: [{ lat: 51.495904, lng: -0.181341 }],
     type: "pub",
   },
   {
-    placeName: "British Art Museum",
+    placeName:
+      "<b>British Art Museum</b> <br> Museum: Major Tourist attraction",
     LatLng: [{ lat: 51.4930471, lng: -0.170851 }],
     type: "museum",
   },
 
   {
-    placeName: "Royal Albert Hall",
+    placeName: "<b>Royal Albert Hall</b> <br> Theatre and Concert Hall",
     LatLng: [{ lat: 51.496788, lng: -0.1693656 }],
     type: "museum",
   },
   {
-    placeName: "Sainsbury's, Cromwell Rd, Kensington",
+    placeName: "<b>Sainsbury's</b> <br> Supermarket and Pharmacy",
     LatLng: [{ lat: 51.495541, lng: -0.188207 }],
     type: "grocery",
   },
   {
-    placeName: "Gloucester Road Station, South Kensington",
+    placeName: "<b>Gloucester Road Station</b> <br> Underground train station",
     LatLng: [{ lat: 51.49439, lng: -0.182728 }],
     type: "subway",
   },
 
   {
-    placeName: "Cromwell Road Station",
+    placeName: "<b>Cromwell Road Station</b> <br> Underground train station",
     LatLng: [{ lat: 51.495163, lng: -0.191343 }],
     type: "subway",
   },
   {
-    placeName: "Restaurant Ours, Brompton Rd, South Kensington",
+    placeName: "<b>Toby Restaurant</b> <br> Traditional English Restaurant",
     LatLng: [{ lat: 51.494052, lng: -0.169114 }],
     type: "restaurant",
   },
 
   {
-    placeName: "Yo Chung Vietnamese Restaurant",
+    placeName: "<b>Yo Chung Restaurant</b> <br> Chinese/Korean Restaurant",
     LatLng: [{ lat: 51.49504, lng: -0.180146 }],
     type: "restaurant",
   },
   {
-    placeName: "Big Fernand Thurloe Pl, South Kensington",
+    placeName: "<b>Pizza Pappalis</b> <br> Italian Pizza Restaurant",
     LatLng: [{ lat: 51.495209, lng: -0.173755 }],
     type: "restaurant",
   },
   {
-    placeName: "Brompton Food Market Thurloe Pl, South Kensington",
+    placeName: "<b>Al Kabir</b> <br> Turkish Barbeque Restaurant",
     LatLng: [{ lat: 51.492429, lng: -0.1834594 }],
     type: "restaurant",
   },
   {
-    placeName: "Waitrose Gloucester Rd, South Kensington",
+    placeName: "<b>Waitrose</b> <br> Supermarket and Pharmacy",
     LatLng: [{ lat: 51.492337, lng: -0.178064 }],
     type: "grocery",
   },
   {
-    placeName: "Tesco Express Gloucester Rd, South Kensington",
+    placeName: "<b>Tesco</b> <br> Supermarket and Pharmacy",
     LatLng: [{ lat: 51.496669, lng: -0.17939 }],
     type: "grocery",
   },
