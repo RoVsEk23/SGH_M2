@@ -19,6 +19,10 @@ The principle purpose of the website is to solicit bookings from business and ca
 
 CSS, HTML, Bootstrap,JavaScript, jQuery, LightBox, GoogleMaps API, Exchange Rates API, EmailJS, Font Awesome.
 
+### WIREFRAMES -
+
+Wireframes in pdf format attached in the wireframes folder under assets
+
 ### LAYOUT -
 
 The site consists of the following pages
