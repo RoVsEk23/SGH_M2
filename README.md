@@ -127,17 +127,17 @@ ACCEPTANCE CRITERIA -
 
 ## TESTING
 
-W3C HTML Validator, W3C CSS Validator and JSHint were used to validate every page and check for syntax errors. 
+W3C HTML Validator, W3C CSS Validator and JSHint were used to validate every page and check for syntax errors.
 
 Padding related errors found in CSS were fixed.
 
-<img src="assets/images/screenshots/CSS-ErrorList.JPG" height = 200 width=600> <img src="assets/images/screenshots/CSS-ErrorListFix.JPG" height = 200 width=600> 
+<img src="assets/images/screenshots/CSS-ErrorList.JPG" height = 200 width=600> <img src="assets/images/screenshots/CSS-ErrorListFix.JPG" height = 200 width=600>
 
 All HTML files had comment related syntax errors that were fixed.
 
-<img src="assets/images/screenshots/HTMLIndexErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLRoomsErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLServiceErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLContactErrorFix.JPG" width=300> 
+<img src="assets/images/screenshots/HTMLIndexErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLRoomsErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLServiceErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLContactErrorFix.JPG" width=300>
 
-Javascript files error fixes by adding /*jshint esversion: 6 */
+Javascript files error fixes by adding /_jshint esversion: 6 _/
 
 <img src="assets/images/screenshots/JSDatepickerError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeErrorFix.JPG" width=300> <img src="assets/images/screenshots/JSHamburgerError.JPG" height=200 width=500> <img src="assets/images/screenshots/JSHamburgerErrorFix.JPG" height=150 width=600> <img src="assets/images/screenshots/JSMapsError.JPG" width=400>
 
@@ -217,14 +217,22 @@ https://getbootstrap.com/ , https://www.w3schools.com/ and https://stackoverflow
 
 https://fontawesome.com/ was used for all fonts.
 
-Lightbox was used for gallery functionality https://lokeshdhakar.com/projects/lightbox2/#options
+Lightbox was used for gallery functionality
+https://lokeshdhakar.com/projects/lightbox2/#options
 
-Bootstrap datepicker https://bootstrap-datepicker.readthedocs.io/en/latest/
+Bootstrap datepicker
+https://bootstrap-datepicker.readthedocs.io/en/latest/
 
 Tutorials -
-https://www.youtube.com/watch?v=zgXHgKad7N0 for Responsive Image Gallery Layout
-https://www.youtube.com/watch?v=Xptz0GQ2DO4 Google Maps API Tutorial
-https://www.youtube.com/watch?v=QMb2jAsSZ0A Currency Conversion using API Javascript
+
+https://www.youtube.com/watch?v=zgXHgKad7N0
+for Responsive Image Gallery Layout
+
+https://www.youtube.com/watch?v=Xptz0GQ2DO4
+for Google Maps API Tutorial
+
+https://www.youtube.com/watch?v=QMb2jAsSZ0A
+for Currency Conversion using API Javascript
 
 EmailJS for forms functionality
 

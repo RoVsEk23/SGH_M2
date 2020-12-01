@@ -1,3 +1,5 @@
+//code inspired by code institute resume project
+
 function sendMail(contactForm) {
   emailjs.init("user_bziEz8YmnFB7Ym0Cd8YHR");
   emailjs
@@ -11,11 +13,13 @@ function sendMail(contactForm) {
     .then(
       function (response) {
         console.log("SUCCESS", response);
-        alert ( "YOUR ENQUIRY HAS BEEN SENT AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE!" );
+        alert(
+          "YOUR ENQUIRY HAS BEEN SENT AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE!"
+        );
       },
       function (error) {
         console.log("FAILED", error);
-        alert ( "FORM FAILED TO SEND" );
+        alert("FORM FAILED TO SEND");
       }
     );
   return false;
@@ -37,11 +41,13 @@ function sendEmail(contactFform) {
     .then(
       function (response) {
         console.log("SUCCESS", response);
-        alert ( "YOUR BOOKING REQUEST HAS BEEN SENT AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE!" );
+        alert(
+          "YOUR BOOKING REQUEST HAS BEEN SENT AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE!"
+        );
       },
       function (error) {
         console.log("FAILED", error);
-        alert ( "FORM FAILED TO SEND" );
+        alert("FORM FAILED TO SEND");
       }
     );
   return false;

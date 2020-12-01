@@ -1,3 +1,5 @@
+// Sources for this code https://vanillawebprojects.com/projects/exchange-rate/ https://exchangeratesapi.io/ https://www.youtube.com/watch?v=QMb2jAsSZ0A
+
 /*jshint esversion: 6 */
 const currencyEl_one = document.getElementById("currency-one");
 const amountEl_one = document.getElementById("amount-one");

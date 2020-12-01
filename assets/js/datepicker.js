@@ -1,3 +1,5 @@
+// Sources for this code - Bootstrap datepicker https://bootstrap-datepicker.readthedocs.io/en/latest/
+
 /*jshint esversion: 6 */
 $(function () {
   var dateFormat = "mm/dd/yy",
