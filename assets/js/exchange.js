@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const currencyEl_one = document.getElementById("currency-one");
 const amountEl_one = document.getElementById("amount-one");
 const currencyEl_two = document.getElementById("currency-two");

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 var map;
 var InfoObj = [];
 var centerCords = { lat: 51.494805, lng: -0.177363 };

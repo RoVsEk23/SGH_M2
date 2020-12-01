@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 $(function () {
   var dateFormat = "mm/dd/yy",
     from = $("#from")

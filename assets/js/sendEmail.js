@@ -11,9 +11,11 @@ function sendMail(contactForm) {
     .then(
       function (response) {
         console.log("SUCCESS", response);
+        alert ( "YOUR ENQUIRY HAS BEEN SENT AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE!" );
       },
       function (error) {
         console.log("FAILED", error);
+        alert ( "FORM FAILED TO SEND" );
       }
     );
   return false;
@@ -35,9 +37,11 @@ function sendEmail(contactFform) {
     .then(
       function (response) {
         console.log("SUCCESS", response);
+        alert ( "YOUR BOOKING REQUEST HAS BEEN SENT AND WE WILL GET BACK TO YOU AS SOON AS POSSIBLE!" );
       },
       function (error) {
         console.log("FAILED", error);
+        alert ( "FORM FAILED TO SEND" );
       }
     );
   return false;
