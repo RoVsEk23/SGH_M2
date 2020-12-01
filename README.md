@@ -127,7 +127,19 @@ ACCEPTANCE CRITERIA -
 
 ## TESTING
 
-W3C Markup Validator and W3C CSS Validator Services were used to validate every page and check for syntax errors.
+W3C HTML Validator, W3C CSS Validator and JSHint were used to validate every page and check for syntax errors. 
+
+Padding related errors found in CSS were fixed.
+
+<img src="assets/images/screenshots/CSS-ErrorList.JPG" height = 200 width=600> <img src="assets/images/screenshots/CSS-ErrorListFix.JPG" height = 200 width=600> 
+
+All HTML files had comment related syntax erroes that were fixed.
+
+<img src="assets/images/screenshots/HTMLIndexErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLRoomsErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLServiceErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLContactErrorFix.JPG" width=300> 
+
+Javascript files error fixes
+
+<img src="assets/images/screenshots/JSDatepickerError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeErrorFix.JPG" width=300> <img src="assets/images/screenshots/JSHamburgerError.JPG" height=200 width=500> <img src="assets/images/screenshots/JSHamburgerErrorFix.JPG" height=200 width=600> <img src="assets/images/screenshots/JSMapsError.JPG" width=300>
 
 #### BROWSER -
 
