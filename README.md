@@ -83,7 +83,7 @@ The general enquiry form on the contact page is to increase interactivity with t
 
 We have an interactive map on the footer of every page with some text that explains to the user how to use the map. Our intention is to display the central location of the property and the various amenities and attractions.
 
-<img src="assets/images/screenshots/DesktopFooter.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileFooter1.JPG" width=200>
+<img src="assets/images/screenshots/DesktopFooter.JPG" height = 300 width=800> <img src="assets/images/screenshots/MobileFooter1.JPG" width=200> <img src="assets/images/screenshots/Map-InfoWindow.JPG" width=400>
 
 #### 3. GALLERY
 
@@ -133,13 +133,15 @@ Padding related errors found in CSS were fixed.
 
 <img src="assets/images/screenshots/CSS-ErrorList.JPG" height = 200 width=600> <img src="assets/images/screenshots/CSS-ErrorListFix.JPG" height = 200 width=600> 
 
-All HTML files had comment related syntax erroes that were fixed.
+All HTML files had comment related syntax errors that were fixed.
 
 <img src="assets/images/screenshots/HTMLIndexErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLRoomsErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLServiceErrorFix.JPG" width=300> <img src="assets/images/screenshots/HTMLContactErrorFix.JPG" width=300> 
 
-Javascript files error fixes
+Javascript files error fixes by adding /*jshint esversion: 6 */
 
-<img src="assets/images/screenshots/JSDatepickerError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeErrorFix.JPG" width=300> <img src="assets/images/screenshots/JSHamburgerError.JPG" height=200 width=500> <img src="assets/images/screenshots/JSHamburgerErrorFix.JPG" height=200 width=600> <img src="assets/images/screenshots/JSMapsError.JPG" width=300>
+<img src="assets/images/screenshots/JSDatepickerError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeError.JPG" width=300> <img src="assets/images/screenshots/JSExchangeErrorFix.JPG" width=300> <img src="assets/images/screenshots/JSHamburgerError.JPG" height=200 width=500> <img src="assets/images/screenshots/JSHamburgerErrorFix.JPG" height=150 width=600> <img src="assets/images/screenshots/JSMapsError.JPG" width=400>
+
+Lightbox package had a jquery conflict that caused the site to crash. that was fixed by rearranging the order of jquery links
 
 #### BROWSER -
 
@@ -161,6 +163,7 @@ All social media buttons link to pages on a new tab.
 Check availability form validated.
 
 <img src="assets/images/screenshots/FooterForm-Clear.JPG" width=250> <img src="assets/images/screenshots/ContactForm-DateValidation.JPG" height = 200 width=500> <img src="assets/images/screenshots/FooterForm-Data.JPG" width=250> <img src="assets/images/screenshots/FooterForm-Entry.JPG" width=250> <img src="assets/images/screenshots/FooterForm-Console.JPG" height = 50 width=600> <img src="assets/images/screenshots/FooterForm-Email.JPG" height = 150 width=700>
+<img src="assets/images/screenshots/GeneralFormAlertMessage.JPG" width=400> <img src="assets/images/screenshots/CheckFormAlertMessage.JPG" width=400>
 
 Known bugs - Phone field accepts character apart from just numbers.
 
